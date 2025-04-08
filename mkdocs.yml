@@ -1,0 +1,43 @@
+site_name: NexOTC Docs
+site_url: https://docs.nexotc.io
+repo_url: https://github.com/YOUR_USERNAME/nexotc-docs
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - search.highlight
+    - search.suggest
+    - palette.toggle
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.critic
