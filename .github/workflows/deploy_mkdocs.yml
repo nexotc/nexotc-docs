@@ -1,0 +1,26 @@
+name: Build MkDocs Site
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        pip install mkdocs mkdocs-material
+
+    - name: Build MkDocs to /docs
+      run: |
+        mkdocs build -d docs
