@@ -80,7 +80,6 @@ plugins:
         en: English
         pt: Portuguese
   - git-revision-date-localized
-  - mkdocs-mermaid2-plugin
 
 extra:
   version:

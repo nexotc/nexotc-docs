@@ -5,4 +5,3 @@ mkdocs-i18n
 mkdocs-git-revision-date-localized-plugin
 mkdocs-pdf-export-plugin
 mike
-git+https://github.com/fralau/mkdocs-mermaid2-plugin.git
