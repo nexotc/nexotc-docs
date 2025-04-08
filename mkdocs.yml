@@ -1,6 +1,29 @@
 site_name: NexOTC Docs
 site_url: https://docs.nexotc.io
 repo_url: https://github.com/YOUR_USERNAME/nexotc-docs
+
+nav:
+  - Welcome:
+      - Welcome to NexOTC: welcome/index.md
+      - FAQ: welcome/faq.md
+      - Waitlist: welcome/waitlist.md
+  - Modules:
+      - Overview: modules/overview.md
+      - Privacy: modules/privacy.md
+      - Proxy Wallets: modules/proxy.md
+  - Compliance:
+      - KYC & KYB: compliance/kyc.md
+      - ZK Proofs: compliance/zk.md
+  - For Institutions:
+      - KYB Onboarding: institutions/kyb.md
+      - Reporting: institutions/reports.md
+  - Earning w/ NexOTC:
+      - Referrals: earning/referrals.md
+      - Commission Routing: earning/commission.md
+  - Links:
+      - Terms of Service: links/tos.md
+      - Twitter: links/twitter.md
+
 theme:
   name: material
   language: en
@@ -25,6 +48,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
+
 markdown_extensions:
   - toc:
       permalink: true

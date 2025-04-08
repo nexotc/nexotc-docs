@@ -1,2 +1,2 @@
-# NexOTC Documentation
-This site is built with MkDocs + Material Theme.
+# NexOTC Docs
+This site is built with MkDocs Material. Placeholders included for all sections.
