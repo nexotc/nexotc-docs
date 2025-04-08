@@ -1,6 +1,6 @@
 site_name: NexOTC Docs
 site_url: https://docs.nexotc.io
-repo_url: https://github.com/YOUR_USERNAME/nexotc-docs
+repo_url: https://github.com/nexotc/nexotc-docs
 
 nav:
   - Welcome:
