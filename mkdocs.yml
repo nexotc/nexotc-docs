@@ -93,5 +93,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/nexotc
   analytics:
-    provider: plausible
+    provider: google
+    property: G-F4TY0PXZ2Z
     domain: docs.nexotc.io
