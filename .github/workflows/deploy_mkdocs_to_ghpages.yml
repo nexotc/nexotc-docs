@@ -23,9 +23,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install MkDocs & Theme
+      - name: Install dependencies from requirements.txt
         run: |
-          pip install mkdocs mkdocs-material
+          pip install -r requirements.txt
 
       - name: Build MkDocs Site
         run: |
