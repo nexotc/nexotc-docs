@@ -1,87 +1,99 @@
 site_name: NexOTC Docs
 site_url: https://docs.nexotc.io
 repo_url: https://github.com/nexotc/nexotc-docs
+edit_uri: ""
+copyright: "© 2025 NexOTC"
+
 theme:
   name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
   language: en
   features:
+    - navigation.instant
     - navigation.expand
-    - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
     - content.code.copy
-    - content.tabs.link
+    - content.action.edit
+    - content.action.view
     - search.highlight
-    - search.suggest
-    - palette.toggle
+    - search.share
+    - announce.dismiss
+    - header.autohide
+    - navigation.footer
   palette:
-    - scheme: default
-      primary: indigo
-      accent: pink
     - scheme: slate
       primary: indigo
-      accent: pink
+      accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
         name: Switch to dark mode
 
-nav:
-  - Welcome:
-      - Welcome to NexOTC: index.md
-      - Getting Started: welcome/getting-started.md
-      - FAQ: welcome/faq.md
-      - Waitlist: welcome/waitlist.md
-
-  - Modules:
-      - Overview: modules/overview.md
-      - AI Matchmaking Agents: modules/ai-matchmaking.md
-      - Proxy Wallets: modules/proxy-wallets.md
-      - Multi-Sig Wallets: modules/multi-sig-wallets.md
-      - Smart Escrow: modules/smart-escrow.md
-      - KYC / KYB Verification: modules/kyc-kyb.md
-      - ZK-SNARK Compliance Layer: modules/zk-snarks.md
-      - Tranche-Based Settlement: modules/tranche-settlement.md
-      - Commission Routing: modules/commission-routing.md
-
-  - Configuration:
-      - User Preferences: configuration/preferences.md
-      - Privacy Level: configuration/privacy-level.md
-      - Wallet Setup: configuration/wallet-setup.md
-      - Notifications: configuration/notifications.md
-      - Roles & Permissions: configuration/roles.md
-
-  - For Institutions:
-      - KYB Onboarding: institutions/kyb-onboarding.md
-      - Reporting & Audit Trails: institutions/reporting.md
-      - Real-Time AML Flags: institutions/aml-flags.md
-      - Whitelisting Wallets: institutions/whitelisting.md
-      - Custom Escrow Rules: institutions/custom-escrow.md
-
-  - Earning with NexOTC:
-      - Referrals: earning/referrals.md
-      - Commission Settings: earning/commission-settings.md
-      - Delegated Introducers: earning/introducers.md
-      - Partner Rewards: earning/rewards.md
-
-  - Links:
-      - Support: links/support.md
-      - Twitter: links/twitter.md
-      - Terms of Service: links/terms.md
-      - Privacy Policy: links/privacy.md
-
 markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - def_list
+  - footnotes
+  - md_in_html
   - toc:
       permalink: true
-  - admonition
-  - footnotes
-  - attr_list
-  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.keys
-  - pymdownx.critic
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.progressbar
+  - pymdownx.emoji
+
+plugins:
+  - search
+  - tags
+  - glightbox
+  - social
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        pt: Portuguese
+  - mkdocs_pdf_export_plugin
+  - git-revision-date-localized
+  - mkdocs-mermaid2-plugin
+
+extra:
+  version:
+    provider: mike
+  generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/nexotc
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/nexotc
+    - icon: fontawesome/brands/github
+      link: https://github.com/nexotc
+  analytics:
+    provider: plausible
+    domain: docs.nexotc.io
