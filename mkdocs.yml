@@ -79,7 +79,6 @@ plugins:
       languages:
         en: English
         pt: Portuguese
-  - mkdocs_pdf_export_plugin
   - git-revision-date-localized
   - mkdocs-mermaid2-plugin
 
