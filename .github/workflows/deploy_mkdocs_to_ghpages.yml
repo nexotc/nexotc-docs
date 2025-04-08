@@ -37,3 +37,4 @@ jobs:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           cname: docs.nexotc.io
+          publish_branch: gh-pages
