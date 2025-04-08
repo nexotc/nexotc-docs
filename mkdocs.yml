@@ -1,29 +1,6 @@
 site_name: NexOTC Docs
 site_url: https://docs.nexotc.io
 repo_url: https://github.com/nexotc/nexotc-docs
-
-nav:
-  - Welcome:
-      - Welcome to NexOTC: welcome/index.md
-      - FAQ: welcome/faq.md
-      - Waitlist: welcome/waitlist.md
-  - Modules:
-      - Overview: modules/overview.md
-      - Privacy: modules/privacy.md
-      - Proxy Wallets: modules/proxy.md
-  - Compliance:
-      - KYC & KYB: compliance/kyc.md
-      - ZK Proofs: compliance/zk.md
-  - For Institutions:
-      - KYB Onboarding: institutions/kyb.md
-      - Reporting: institutions/reports.md
-  - Earning w/ NexOTC:
-      - Referrals: earning/referrals.md
-      - Commission Routing: earning/commission.md
-  - Links:
-      - Terms of Service: links/tos.md
-      - Twitter: links/twitter.md
-
 theme:
   name: material
   language: en
@@ -34,7 +11,6 @@ theme:
     - toc.integrate
     - content.code.copy
     - content.tabs.link
-    - header.autohide
     - search.highlight
     - search.suggest
     - palette.toggle
@@ -48,6 +24,50 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
+
+nav:
+  - Welcome:
+      - Welcome to NexOTC: index.md
+      - Getting Started: welcome/getting-started.md
+      - FAQ: welcome/faq.md
+      - Waitlist: welcome/waitlist.md
+
+  - Modules:
+      - Overview: modules/overview.md
+      - AI Matchmaking Agents: modules/ai-matchmaking.md
+      - Proxy Wallets: modules/proxy-wallets.md
+      - Multi-Sig Wallets: modules/multi-sig-wallets.md
+      - Smart Escrow: modules/smart-escrow.md
+      - KYC / KYB Verification: modules/kyc-kyb.md
+      - ZK-SNARK Compliance Layer: modules/zk-snarks.md
+      - Tranche-Based Settlement: modules/tranche-settlement.md
+      - Commission Routing: modules/commission-routing.md
+
+  - Configuration:
+      - User Preferences: configuration/preferences.md
+      - Privacy Level: configuration/privacy-level.md
+      - Wallet Setup: configuration/wallet-setup.md
+      - Notifications: configuration/notifications.md
+      - Roles & Permissions: configuration/roles.md
+
+  - For Institutions:
+      - KYB Onboarding: institutions/kyb-onboarding.md
+      - Reporting & Audit Trails: institutions/reporting.md
+      - Real-Time AML Flags: institutions/aml-flags.md
+      - Whitelisting Wallets: institutions/whitelisting.md
+      - Custom Escrow Rules: institutions/custom-escrow.md
+
+  - Earning with NexOTC:
+      - Referrals: earning/referrals.md
+      - Commission Settings: earning/commission-settings.md
+      - Delegated Introducers: earning/introducers.md
+      - Partner Rewards: earning/rewards.md
+
+  - Links:
+      - Support: links/support.md
+      - Twitter: links/twitter.md
+      - Terms of Service: links/terms.md
+      - Privacy Policy: links/privacy.md
 
 markdown_extensions:
   - toc:
