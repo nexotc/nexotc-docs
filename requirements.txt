@@ -1,0 +1,8 @@
+mkdocs>=1.4
+mkdocs-material>=9.5
+mkdocs-glightbox
+mkdocs-mermaid2-plugin
+mkdocs-i18n
+mkdocs-git-revision-date-localized-plugin
+mkdocs-pdf-export-plugin
+mike
