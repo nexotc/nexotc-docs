@@ -9,40 +9,39 @@ copyright: "Copyright © 2025 NexOTC"
 nav:
   - NexOTC: index.md
   - Welcome:
-      - Getting Started: welcome/getting-started.md
-      - FAQ: welcome/faq.md
-      - Waitlist: welcome/waitlist.md
+      - 'Getting Started': welcome/getting-started.md
+      - 'FAQ': welcome/faq.md
+      - 'Waitlist': welcome/waitlist.md
 
   - Modules:
-      - Overview: modules/overview.md
-      - Trustless OTC Escrow: modules/trustless-escrow.md
-      - AI Matchmaking Agents: modules/ai-agents.md
-      - Fee & Commission Structure: modules/fee-system.md
-      - Multi-Layered Privacy: modules/privacy-stack.md
-      - Asset & Token Support: modules/token-support.md
-      - OTC Trade Workflow: modules/user-flow.md
+      - 'Overview': modules/overview.md
+      - 'Trustless OTC Escrow': modules/trustless-escrow.md
+      - 'AI Matchmaking Agents': modules/ai-agents.md
+      - 'Fee & Commission Structure': modules/fee-system.md
+      - 'Multi-Layered Privacy': modules/privacy-stack.md
+      - 'Asset & Token Support': modules/token-support.md
+      - 'OTC Trade Workflow': modules/user-flow.md
 
   - Compliance:
-      -
-      - 
-      - Legal & Jurisdiction: compliance/legal-readiness.md
-      - Partners & Integrations: compliance/compliance-partners.md
+      - 'ZK Identity': compliance/zk-identity.md
+      - 'Legal & Jurisdiction': compliance/legal-readiness.md
+      - 'Partners & Integrations': compliance/compliance-partners.md
 
   - For Institutions:
-      - How institutions Use NexOTC: institutions/institutional-flows.md
-      - Create a Private OTC Desk: institutions/custom-desk.md
-      - Multi-Sig & Proxy Wallets: institutions/wallet-controls.md
-      - Post-Trade Compliance & Reporting: institutions/post-trade-compliance.md
+      - 'How institutions Use NexOTC': institutions/institutional-flows.md
+      - 'Create a Private OTC Desk': institutions/custom-desk.md
+      - 'Multi-Sig & Proxy Wallets': institutions/wallet-controls.md
+      - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
 
   - Earning with NexOTC:
-      - Referral & Introducer Setup: earning/referral-program.md
-      - NexOTC Points & Loyalty Rewards: earning/rewards.md
-      - Revenue Share: earning/revenue-model.md
+      - 'Referral & Introducer Setup': earning/referral-program.md
+      - 'NexOTC Points & Loyalty Rewards': earning/rewards.md
+      - 'Revenue Share': earning/revenue-model.md
 
   - Links:
-      - X: links/x.md
-      - Support: links/support.md
-      - TOS & Privacy Policy: links/tos-privacy.md
+      - 'X': links/x.md
+      - 'Support': links/support.md
+      - 'TOS & Privacy Policy': links/tos-privacy.md
 
 theme:
   name: material
