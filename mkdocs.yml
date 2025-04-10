@@ -7,7 +7,8 @@ edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
 nav:
-  - Welcome:
+  - "": en/index.md
+  - Home:
       - 'Getting Started': en/welcome/getting-started.md
       - 'FAQ': en/welcome/faq.md
       - 'Waitlist': en/welcome/waitlist.md
@@ -41,6 +42,13 @@ nav:
       - 'X': en/links/x.md
       - 'Support': en/links/support.md
       - 'TOS & Privacy Policy': en/links/tos-privacy.md
+
+nav@pt:
+  - "": pt/index.md
+  - Home:
+      - 'Introdução': pt/welcome/getting-started.md
+      - 'FAQ': pt/welcome/faq.md
+      - 'Lista de Espera': pt/welcome/waitlist.md
 
 theme:
   name: material
