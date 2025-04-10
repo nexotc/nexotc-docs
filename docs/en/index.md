@@ -9,7 +9,7 @@ hide:
 🚀 **Welcome to NexOTC** — the first platform where P2P trades are matched, negotiated, and executed with **privacy**, **compliance**, and **full control** — **without intermediaries**.
 
 <figure markdown>
-  ![NexOTC Hero](en/assets/images/hero.png){ width="100%" }
+  ![NexOTC Hero](assets/images/hero.png){ width="100%" }
 </figure>
 
 ## Why NexOTC?

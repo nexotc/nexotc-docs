@@ -7,7 +7,7 @@ edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
 nav:
-  - NexOTC: index.md
+  - NexOTC: en/index.md
   - Welcome:
       - 'Getting Started': en/welcome/getting-started.md
       - 'FAQ': en/welcome/faq.md
