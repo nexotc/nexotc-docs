@@ -123,7 +123,7 @@ plugins:
   - social
   - git-revision-date-localized
   - i18n:
-      default_language: en
+      docs_structure: folder
       languages:
         - locale: en
           name: English
