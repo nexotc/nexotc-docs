@@ -43,13 +43,6 @@ nav:
       - 'Support': en/links/support.md
       - 'TOS & Privacy Policy': en/links/tos-privacy.md
 
-nav@pt:
-  - "": pt/index.md
-  - Home:
-      - 'Introdução': pt/home/getting-started.md
-      - 'FAQ': pt/home/faq.md
-      - 'Lista de Espera': pt/home/waitlist.md
-
 theme:
   name: material
   logo: en/assets/images/logo.png
@@ -123,13 +116,12 @@ plugins:
   - social
   - git-revision-date-localized
   - i18n:
-      docs_structure: folder
+      default_language: en
       languages:
-        - locale: en
+        en:
           name: English
-          default: true
           build: true
-        - locale: pt
+        pt:
           name: Português
           build: true
 
