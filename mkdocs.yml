@@ -63,6 +63,7 @@ theme:
     - announce.dismiss
     - header.autohide
     - navigation.footer
+    - i18n.locale_switch
   palette:
     - scheme: slate
       primary: indigo
@@ -115,9 +116,10 @@ plugins:
   - social
   - i18n:
       default_language: en
+      redirect_root: true
       languages:
         en: English
-        pt: Portuguese
+        pt: Português
   - git-revision-date-localized
 
 extra:
