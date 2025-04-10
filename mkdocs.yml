@@ -116,12 +116,13 @@ plugins:
   - social
   - git-revision-date-localized
   - i18n:
-      default_language: en
+      docs_structure: folder
       languages:
-        en:
+        - locale: en
           name: English
           build: true
-        pt:
+          default: true
+        - locale: pt
           name: Português
           build: true
 
