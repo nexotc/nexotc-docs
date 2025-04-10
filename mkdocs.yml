@@ -7,7 +7,6 @@ edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
 nav:
-  - NexOTC: en/index.md
   - Welcome:
       - 'Getting Started': en/welcome/getting-started.md
       - 'FAQ': en/welcome/faq.md
@@ -49,6 +48,7 @@ theme:
   favicon: en/assets/images/favicon.ico
   language: en
   features:
+    - i18n.locale_switch
     - navigation.instant
     - navigation.expand
     - navigation.sections
@@ -63,7 +63,6 @@ theme:
     - announce.dismiss
     - header.autohide
     - navigation.footer
-    - i18n.locale_switch
   palette:
     - scheme: slate
       primary: indigo
@@ -116,7 +115,6 @@ plugins:
   - social
   - i18n:
       default_language: en
-      redirect_root: true
       languages:
         en: English
         pt: Português
