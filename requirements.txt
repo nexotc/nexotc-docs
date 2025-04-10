@@ -1,7 +1,7 @@
 mkdocs>=1.4
 mkdocs-material[imaging]>=9.5
 mkdocs-glightbox
-mkdocs-i18n
+mkdocs-static-i18n
 mkdocs-git-revision-date-localized-plugin
 mkdocs-pdf-export-plugin
 mike

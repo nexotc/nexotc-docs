@@ -9,9 +9,9 @@ copyright: "Copyright © 2025 NexOTC"
 nav:
   - "": en/index.md
   - Home:
-      - 'Getting Started': en/welcome/getting-started.md
-      - 'FAQ': en/welcome/faq.md
-      - 'Waitlist': en/welcome/waitlist.md
+      - 'Getting Started': en/home/getting-started.md
+      - 'FAQ': en/home/faq.md
+      - 'Waitlist': en/home/waitlist.md
 
   - Modules:
       - 'Overview': en/modules/overview.md
@@ -46,9 +46,9 @@ nav:
 nav@pt:
   - "": pt/index.md
   - Home:
-      - 'Introdução': pt/welcome/getting-started.md
-      - 'FAQ': pt/welcome/faq.md
-      - 'Lista de Espera': pt/welcome/waitlist.md
+      - 'Introdução': pt/home/getting-started.md
+      - 'FAQ': pt/home/faq.md
+      - 'Lista de Espera': pt/home/waitlist.md
 
 theme:
   name: material
