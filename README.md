@@ -7,7 +7,7 @@ NexOTC brings **trustless**, **peer-to-peer OTC trading** to individuals and ins
 ## 🚀 Key Features
 
 - 🔐 **Trustless OTC Escrow** — Smart contract-driven, without custodial risks
-- 🤖 **AI Matchmaking Agents** — Automatically connect counterparties by analyzing trade terms, volume, compliance preferences, and behavioral patterns
+- 🤖 **AI Matchmaking Agents** — Automatically connect counterparties by analyzing trade terms, volume, compliance preferences and behavioral patterns
 - 🧩 **zk-SNARK Compliance** — KYC/AML verification with zero data exposure
 - 🛡️ **Multi-Layered Privacy** — Proxy wallets, selective disclosure and multi-sig support
 - 💸 **Tiered Fee System** — Optimized fees across $25K-$100M+ OTC deals
