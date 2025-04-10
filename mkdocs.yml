@@ -114,7 +114,6 @@ plugins:
   - tags
   - glightbox
   - social
-  - git-revision-date-localized
   - i18n:
       docs_structure: folder
       languages:
@@ -125,6 +124,7 @@ plugins:
         - locale: pt
           name: Português
           build: true
+  - git-revision-date-localized
 
 extra:
   version:
