@@ -1,127 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.nexotc.io/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/configuration/notifications/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/compliance/compliance-partners/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/configuration/preferences/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/compliance/legal-readiness/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/configuration/privacy-level/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/compliance/zk-identity/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/configuration/roles/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/earning/referral-program/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/configuration/wallet-setup/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/earning/revenue-model/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/earning/commission-settings/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/earning/rewards/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/earning/introducers/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/institutions/custom-desk/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/earning/referrals/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/institutions/institutional-flows/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/earning/rewards/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/institutions/post-trade-compliance/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/institutions/aml-flags/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/institutions/wallet-controls/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/institutions/custom-escrow/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/links/support/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/institutions/kyb-onboarding/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/links/tos-privacy/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/institutions/reporting/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/links/x/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/institutions/whitelisting/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/ai-agents/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/links/privacy/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/fee-system/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/links/support/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/overview/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/links/terms/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/privacy-stack/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/links/twitter/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/token-support/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/modules/ai-matchmaking/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/trustless-escrow/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/modules/commission-routing/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/modules/user-flow/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/modules/kyc-kyb/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/welcome/faq/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/modules/multi-sig-wallets/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/welcome/getting-started/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
     <url>
-         <loc>https://docs.nexotc.io/modules/overview/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/modules/proxy-wallets/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/modules/smart-escrow/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/modules/tranche-settlement/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/modules/zk-snarks/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/welcome/faq/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/welcome/getting-started/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.nexotc.io/welcome/waitlist/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <loc>https://docs.nexotc.io/en/welcome/waitlist/</loc>
+         <lastmod>2025-04-10</lastmod>
     </url>
 </urlset>
