@@ -50,7 +50,6 @@ theme:
   language: en
   features:
     - i18n.locale_switch
-    - navigation.instant
     - navigation.expand
     - navigation.sections
     - navigation.tabs
