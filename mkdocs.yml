@@ -121,12 +121,14 @@ plugins:
   - tags
   - glightbox
   - social
+  - git-revision-date-localized
   - i18n:
       default_language: en
       languages:
-        en: English
-        pt: Português
-  - git-revision-date-localized
+        - locale: en
+          name: English
+        - locale: pt
+          name: Português
 
 extra:
   version:
