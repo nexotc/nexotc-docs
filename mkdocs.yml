@@ -125,7 +125,6 @@ plugins:
           name: Português
           build: true
   - pdf-export:
-      icon: material:file-pdf-box
       verbose: true
       combined: false
       media_type: print
