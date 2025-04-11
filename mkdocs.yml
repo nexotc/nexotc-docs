@@ -7,11 +7,12 @@ edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
 nav:
-  - "NexOTC": index.md
-  - Home:
-      - 'Getting Started': home/getting-started.md
-      - 'FAQ': home/faq.md
-      - 'Waitlist': home/waitlist.md
+  - Home: index.md
+  - NexOTC:
+      - 'Getting Started': nexotc/getting-started.md
+      - 'Waitlist': nexotc/waitlist.md
+      - 'Roadmap': nexotc/roadmap.md
+      - 'FAQ': nexotc/faq.md
 
   - Modules:
       - 'Overview': modules/overview.md
