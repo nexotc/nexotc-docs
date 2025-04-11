@@ -7,7 +7,7 @@ edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
 nav:
-  - "": index.md
+  - "NexOTC": index.md
   - Home:
       - 'Getting Started': home/getting-started.md
       - 'FAQ': home/faq.md
@@ -47,6 +47,8 @@ theme:
   name: material
   logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   language: en
   features:
     - i18n.locale_switch
@@ -123,9 +125,20 @@ plugins:
         - locale: pt
           name: Português
           build: true
+  - pdf-export:
+      verbose: true
+      combined: true
+      media_type: print
   - git-revision-date-localized
 
 extra:
+  alternate:
+    - name: 🇬🇧 English
+      link: /
+      lang: en
+    - name: 🇵🇹 Português
+      link: /pt/
+      lang: pt
   version:
     provider: mike
   generator: false
