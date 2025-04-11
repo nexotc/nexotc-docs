@@ -133,10 +133,10 @@ plugins:
 
 extra:
   alternate:
-    - name: 🇬🇧 English
+    - name: "🇬🇧 English"
       link: /
       lang: en
-    - name: 🇵🇹 Português
+    - name: "🇵🇹 Português"
       link: /pt/
       lang: pt
   version:
