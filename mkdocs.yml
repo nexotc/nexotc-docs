@@ -55,13 +55,13 @@ theme:
     - navigation.tabs
     - navigation.top
     - toc.follow
+    - toc.integrate
     - content.code.copy
     - content.action.edit
     - content.action.view
     - search.highlight
     - search.share
     - announce.dismiss
-    - header.autohide
     - navigation.footer
   palette:
     - scheme: slate
