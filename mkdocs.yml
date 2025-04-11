@@ -45,8 +45,8 @@ nav:
 
 theme:
   name: material
-  logo: en/assets/images/logo.png
-  favicon: en/assets/images/favicon.ico
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
   language: en
   features:
     - i18n.locale_switch
