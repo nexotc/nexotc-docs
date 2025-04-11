@@ -7,41 +7,41 @@ edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
 nav:
-  - "": en/index.md
+  - "": index.md
   - Home:
-      - 'Getting Started': en/home/getting-started.md
-      - 'FAQ': en/home/faq.md
-      - 'Waitlist': en/home/waitlist.md
+      - 'Getting Started': home/getting-started.md
+      - 'FAQ': home/faq.md
+      - 'Waitlist': home/waitlist.md
 
   - Modules:
-      - 'Overview': en/modules/overview.md
-      - 'Trustless OTC Escrow': en/modules/trustless-escrow.md
-      - 'AI Matchmaking Agents': en/modules/ai-agents.md
-      - 'Fee & Commission Structure': en/modules/fee-system.md
-      - 'Multi-Layered Privacy': en/modules/privacy-stack.md
-      - 'Asset & Token Support': en/modules/token-support.md
-      - 'OTC Trade Workflow': en/modules/user-flow.md
+      - 'Overview': modules/overview.md
+      - 'Trustless OTC Escrow': modules/trustless-escrow.md
+      - 'AI Matchmaking Agents': modules/ai-agents.md
+      - 'Fee & Commission Structure': modules/fee-system.md
+      - 'Multi-Layered Privacy': modules/privacy-stack.md
+      - 'Asset & Token Support': modules/token-support.md
+      - 'OTC Trade Workflow': modules/user-flow.md
 
   - Compliance:
-      - 'ZK Identity': en/compliance/zk-identity.md
-      - 'Legal & Jurisdiction': en/compliance/legal-readiness.md
-      - 'Partners & Integrations': en/compliance/compliance-partners.md
+      - 'ZK Identity': compliance/zk-identity.md
+      - 'Legal & Jurisdiction': compliance/legal-readiness.md
+      - 'Partners & Integrations': compliance/compliance-partners.md
 
   - For Institutions:
-      - 'How institutions Use NexOTC': en/institutions/institutional-flows.md
-      - 'Create a Private OTC Desk': en/institutions/custom-desk.md
-      - 'Multi-Sig & Proxy Wallets': en/institutions/wallet-controls.md
-      - 'Post-Trade Compliance & Reporting': en/institutions/post-trade-compliance.md
+      - 'How institutions Use NexOTC': institutions/institutional-flows.md
+      - 'Create a Private OTC Desk': institutions/custom-desk.md
+      - 'Multi-Sig & Proxy Wallets': institutions/wallet-controls.md
+      - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
 
   - Earning with NexOTC:
-      - 'Referral & Introducer Setup': en/earning/referral-program.md
-      - 'NexOTC Points & Loyalty Rewards': en/earning/rewards.md
-      - 'Revenue Share': en/earning/revenue-model.md
+      - 'Referral & Introducer Setup': earning/referral-program.md
+      - 'NexOTC Points & Loyalty Rewards': earning/rewards.md
+      - 'Revenue Share': earning/revenue-model.md
 
   - Links:
-      - 'X': en/links/x.md
-      - 'Support': en/links/support.md
-      - 'TOS & Privacy Policy': en/links/tos-privacy.md
+      - 'X': links/x.md
+      - 'Support': links/support.md
+      - 'TOS & Privacy Policy': links/tos-privacy.md
 
 theme:
   name: material
