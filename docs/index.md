@@ -1,4 +1,4 @@
-[:material-file-pdf-box: Download PDF](../pdf/index.pdf){ .md-button }
+[:material-file-pdf-box: Download PDF](/pdf/index.pdf){ .md-button }
 ---
 hide:
   - navigation
