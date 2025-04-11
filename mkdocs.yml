@@ -45,6 +45,7 @@ nav:
 
 theme:
   name: material
+  language: en
   logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
   icon:
