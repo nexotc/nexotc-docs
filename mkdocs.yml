@@ -49,7 +49,6 @@ theme:
   favicon: assets/images/favicon.ico
   icon:
     repo: fontawesome/brands/github
-  language: en
   features:
     - i18n.locale_switch
     - navigation.expand
@@ -126,8 +125,9 @@ plugins:
           name: Português
           build: true
   - pdf-export:
+      icon: material:file-pdf-box
       verbose: true
-      combined: true
+      combined: false
       media_type: print
   - git-revision-date-localized
 
