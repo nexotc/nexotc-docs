@@ -24,10 +24,10 @@ hide:
 - 🏦 **Custom Institutional Desks** — Launch private OTC desks with dedicated trade parameters, wallet controls and post-trade reporting — built for funds, family offices and enterprises.
 
 <div style="margin-top: 2em">
-<a href="pt/nexotc/getting-started/" class="md-button md-button--primary">
+<a href="nexotc/getting-started/" class="md-button md-button--primary">
 Get Started
 </a>
-<a href="pt/modules/overview/" class="md-button">
+<a href="modules/overview/" class="md-button">
 Learn more
 </a>
 </div>
