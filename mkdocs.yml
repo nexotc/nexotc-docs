@@ -49,6 +49,7 @@ theme:
   logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
   icon:
+    alternate: material/translate
     repo: fontawesome/brands/github
   features:
     - i18n.locale_switch
@@ -133,10 +134,10 @@ plugins:
 
 extra:
   alternate:
-    - name: "🇬🇧 English"
+    - name: English
       link: /
       lang: en
-    - name: "🇵🇹 Português"
+    - name: Português
       link: /pt/
       lang: pt
   version:
