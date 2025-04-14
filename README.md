@@ -1,6 +1,6 @@
 # NexOTC
 
-> _Private. Secure. Trustless OTC Trading._
+> _Private. Secure. Trustless._
 
 🚀 **Welcome to NexOTC** — the first platform where P2P trades are matched, negotiated and executed with **privacy**, **compliance** and **full control** — **without intermediaries or custodial risk**.
 
