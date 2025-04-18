@@ -1,5 +1,5 @@
 site_name: NexOTC Documentation
-site_description: "Redefining OTC: Private. Secure. Trustless."
+site_description: "Private. Secure. Trustless."
 site_url: https://docs.nexotc.io
 repo_url: https://github.com/nexotc/nexotc-docs
 repo_name: NexOTC Docs
@@ -9,40 +9,40 @@ copyright: "Copyright © 2025 NexOTC"
 nav:
   - Home: index.md
   - NexOTC:
-      - 'Getting Started': nexotc/getting-started.md
-      - 'Waitlist': nexotc/waitlist.md
-      - 'Roadmap': nexotc/roadmap.md
-      - 'FAQ': nexotc/faq.md
+      - '🛫 Getting Started': nexotc/getting-started.md
+      - '⏳ Waitlist': nexotc/waitlist.md
+      - '🗺️ Roadmap': nexotc/roadmap.md
+      - '❓ FAQ': nexotc/faq.md
 
   - Modules:
-      - 'Overview': modules/overview.md
-      - 'Trustless OTC Escrow': modules/trustless-escrow.md
-      - 'AI Matchmaking Agents': modules/ai-agents.md
-      - 'Fee & Commission Structure': modules/fee-system.md
-      - 'Multi-Layered Privacy': modules/privacy-stack.md
-      - 'Asset & Token Support': modules/token-support.md
-      - 'OTC Trade Workflow': modules/user-flow.md
+      - '🧭 Overview': modules/overview.md
+      - '📜 Trustless OTC Escrow': modules/trustless-escrow.md
+      - '🤖 AI Matchmaking Agents': modules/ai-agents.md
+      - '💸 Fee & Commission Structure': modules/fee-system.md
+      - '🛡️ Multi-Layered Privacy': modules/privacy-stack.md
+      - '🪙 Asset & Token Support': modules/token-support.md
+      - '🔄 OTC Trade Workflow': modules/user-flow.md
 
   - Compliance:
-      - 'ZK Identity': compliance/zk-identity.md
-      - 'Legal & Jurisdiction': compliance/legal-readiness.md
-      - 'Partners & Integrations': compliance/compliance-partners.md
+      - '🧬 ZK Identity': compliance/zk-identity.md
+      - '⚖️ Legal & Jurisdiction': compliance/legal-readiness.md
+      - '🤝 Partners & Integrations': compliance/compliance-partners.md
 
   - For Institutions:
-      - 'How institutions Use NexOTC': institutions/institutional-flows.md
-      - 'Create a Private OTC Desk': institutions/custom-desk.md
-      - 'Multi-Sig & Proxy Wallets': institutions/wallet-controls.md
-      - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
+      - '🏦 How institutions Use NexOTC': institutions/institutional-flows.md
+      - '🛠️ Create a Private OTC Desk': institutions/custom-desk.md
+      - '🔐 Multi-Sig & Proxy Wallets': institutions/wallet-controls.md
+      - '📑 Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
 
   - Earning with NexOTC:
-      - 'Referral & Introducer Setup': earning/referral-program.md
-      - 'Points & Loyalty Rewards': earning/rewards.md
-      - 'Revenue Share': earning/revenue-model.md
+      - '🎯 Referral & Introducer Setup': earning/referral-program.md
+      - '🎁 Points & Loyalty Rewards': earning/rewards.md
+      - '🪙 Revenue Share': earning/revenue-model.md
 
   - Links:
-      - 'X': links/x.md
-      - 'Support': links/support.md
-      - 'TOS & Privacy Policy': links/tos-privacy.md
+      - '🐦 X': links/x.md
+      - '🆘 Support': links/support.md
+      - '📃 TOS & Privacy Policy': links/tos-privacy.md
 
 theme:
   name: material
@@ -81,6 +81,9 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
 
+extra_javascript:
+  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -116,7 +119,10 @@ plugins:
   - search
   - tags
   - glightbox
-  - social
+  - social:
+      cards: true
+      cards_dir: assets/cards
+      layout: default/variant
   - i18n:
       docs_structure: folder
       languages:
