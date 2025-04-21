@@ -4,4 +4,5 @@ mkdocs-glightbox
 mkdocs-static-i18n>=1.3.0
 mkdocs-git-revision-date-localized-plugin
 mkdocs-pdf-export-plugin
+mkdocs-mermaid2-plugin
 mike

@@ -37,10 +37,9 @@ nav:
   - Earning with NexOTC:
       - '🎯 Referral & Introducer Setup': earning/referral-program.md
       - '🎁 Points & Loyalty Rewards': earning/rewards.md
-      - '🪙 Revenue Share': earning/revenue-model.md
+      - '🪙 Revenue Share': earning/revenue-share.md
 
   - Links:
-      - '🐦 X': links/x.md
       - '🆘 Support': links/support.md
       - '📃 TOS & Privacy Policy': links/tos-privacy.md
 
@@ -81,9 +80,6 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
 
-extra_javascript:
-  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
-
 markdown_extensions:
   - admonition
   - attr_list
@@ -106,7 +102,11 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -117,6 +117,8 @@ markdown_extensions:
 
 plugins:
   - search
+  - mermaid2
+  - mike
   - tags
   - glightbox
   - social:

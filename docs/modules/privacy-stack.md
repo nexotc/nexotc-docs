@@ -24,9 +24,6 @@ Each layer stacks seamlessly to offer privacy without blocking compliance.
 !!! info "Multi-Sig Wallet Support"
     Institution-grade controls enabling multiple signatures before assets move. Ideal for funds, DAOs, and regulated entities.
 
-!!! info "DID Anchoring"
-    Each verified identity is mapped to a Decentralized Identifier (DID), enabling secure referencing across trades — without revealing the person or entity.
-
 <h2>🎛️ Privacy Levels in Practice</h2>
 
 | Level     | Features                                                                 | Ideal For                           |

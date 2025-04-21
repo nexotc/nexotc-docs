@@ -21,20 +21,20 @@ Each module is designed to perform a specialized task and can work independently
 
 <h2>🛠️ Primary Modules in NexOTC</h2>
 
-!!! success "Trustless OTC Escrow"
+!!! tip "Trustless OTC Escrow"
     Enforces trade terms via smart contracts — with support for time-based execution, multi-asset swaps, and tranche settlement.
 
-!!! success "AI Matchmaking Agents"
+!!! tip "AI Matchmaking Agents"
     Smart agents that connect traders based on preferences, patterns, and verified compliance.
 
-!!! success "Fee & Commission Structure"
+!!! tip "Fee & Commission Structure"
     Automatically routes fees to the platform, introducers, and partners — with support for tiered trade sizes.
 
-!!! success "Multi-Layered Privacy"
+!!! tip "Multi-Layered Privacy"
     Trade privately with zk-SNARK KYC, selective disclosure, proxy wallets, and multi-sig support.
 
-!!! success "Asset & Token Support"
+!!! tip "Asset & Token Support"
     Supports major cryptocurrencies, ERC-20s, and future tokenized assets or commodities.
 
-!!! success "OTC Trade Workflow"
+!!! tip "OTC Trade Workflow"
     A structured journey — from trade creation to settlement — optimized for high-value P2P deals.

@@ -48,33 +48,20 @@ Each party (buyer and seller) can:
 Let’s say a $10M trade is executed with the following configuration:
 
 - **Buyer Side**
-  - Wallet A (2%)
-  - Wallet B (1%)
+    - Wallet A (2%)
+    - Wallet B (1%)
+
 - **Seller Side**
-  - Wallet C (1.5%)
-  - Wallet D (0.5%)
+    - Wallet C (1.5%)
+    - Wallet D (0.5%)
 
-The smart contract will:
-- Deduct the 3% and 2% respectively from each party
-- Send the commissions to the corresponding wallets
-- Keep this logic private from the counterparty
+The smart contract automatically handles commission routing by:
+- Deducting 3% from the buyer side and 2% from the seller side, based on their introducer settings  
+- Distributing the respective fees to the designated introducer wallets  
+- Keeping each party’s commission structure fully private from the counterparty  
 
-```mermaid
-flowchart TB
-  subgraph Buyer
-    A[Buyer]
-    A --> A1[Wallet A (2%)]
-    A --> A2[Wallet B (1%)]
-  end
+The diagram below illustrates how NexOTC routes commissions in a trustless and privacy-preserving manner using smart contract automation.
 
-  subgraph Seller
-    B[Seller]
-    B --> B1[Wallet C (1.5%)]
-    B --> B2[Wallet D (0.5%)]
-  end
-
-  A & B --> SC[Smart Contract Escrow]
-  SC --> A1
-  SC --> A2
-  SC --> B1
-  SC --> B2
+<p align="center">
+  <img src="/assets/images/Diagram_CommissionRouting.png" alt="Commission Routing Diagram" style="max-width: 512px; width: 100%; height: auto;"/>
+</p>
