@@ -2,370 +2,338 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://docs.nexotc.io/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/compliance/compliance-partners/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/compliance/compliance-partners/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/compliance/compliance-partners/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/compliance/legal-readiness/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/compliance/legal-readiness/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/compliance/legal-readiness/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/compliance/zk-identity/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/compliance/zk-identity/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/compliance/zk-identity/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/earning/referral-program/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/referral-program/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/referral-program/"/>
     </url>
     <url>
-        <loc>https://docs.nexotc.io/earning/revenue-model/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <loc>https://docs.nexotc.io/earning/revenue-share/</loc>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/revenue-model/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/revenue-model/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/revenue-share/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/revenue-share/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/earning/rewards/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/rewards/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/rewards/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/institutions/custom-desk/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/custom-desk/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/custom-desk/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/institutions/institutional-flows/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/institutional-flows/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/institutional-flows/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/institutions/post-trade-compliance/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/post-trade-compliance/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/post-trade-compliance/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/institutions/wallet-controls/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/wallet-controls/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/wallet-controls/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/links/support/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/links/support/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/links/support/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/links/tos-privacy/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/links/tos-privacy/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/links/tos-privacy/"/>
     </url>
     <url>
-        <loc>https://docs.nexotc.io/links/x/</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/links/x/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/links/x/"/>
-    </url>
-    <url>
         <loc>https://docs.nexotc.io/modules/ai-agents/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/ai-agents/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/ai-agents/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/modules/fee-system/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/fee-system/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/fee-system/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/modules/overview/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/overview/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/overview/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/modules/privacy-stack/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/privacy-stack/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/privacy-stack/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/modules/token-support/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/token-support/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/token-support/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/modules/trustless-escrow/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/trustless-escrow/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/trustless-escrow/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/modules/user-flow/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/user-flow/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/user-flow/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/nexotc/faq/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/faq/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/faq/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/nexotc/getting-started/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/getting-started/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/nexotc/roadmap/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/roadmap/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/nexotc/waitlist/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/waitlist/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/waitlist/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/compliance/compliance-partners/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/compliance/compliance-partners/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/compliance/compliance-partners/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/compliance/legal-readiness/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/compliance/legal-readiness/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/compliance/legal-readiness/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/compliance/zk-identity/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/compliance/zk-identity/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/compliance/zk-identity/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/earning/referral-program/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/referral-program/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/referral-program/"/>
     </url>
     <url>
-        <loc>https://docs.nexotc.io/pt/earning/revenue-model/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <loc>https://docs.nexotc.io/pt/earning/revenue-share/</loc>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/revenue-model/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/revenue-model/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/revenue-share/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/revenue-share/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/earning/rewards/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/earning/rewards/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/earning/rewards/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/institutions/custom-desk/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/custom-desk/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/custom-desk/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/institutions/institutional-flows/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/institutional-flows/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/institutional-flows/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/institutions/post-trade-compliance/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/post-trade-compliance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/post-trade-compliance/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/institutions/wallet-controls/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/institutions/wallet-controls/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/institutions/wallet-controls/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/links/support/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/links/support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/links/support/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/links/tos-privacy/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/links/tos-privacy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/links/tos-privacy/"/>
     </url>
     <url>
-        <loc>https://docs.nexotc.io/pt/links/x/</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/links/x/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/links/x/"/>
-    </url>
-    <url>
         <loc>https://docs.nexotc.io/pt/modules/ai-agents/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/ai-agents/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/ai-agents/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/modules/fee-system/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/fee-system/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/fee-system/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/modules/overview/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/overview/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/overview/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/modules/privacy-stack/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/privacy-stack/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/privacy-stack/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/modules/token-support/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/token-support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/token-support/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/modules/trustless-escrow/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/trustless-escrow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/trustless-escrow/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/modules/user-flow/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/modules/user-flow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/modules/user-flow/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/nexotc/faq/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/faq/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/faq/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/nexotc/getting-started/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/getting-started/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/nexotc/roadmap/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/roadmap/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/roadmap/"/>
     </url>
     <url>
         <loc>https://docs.nexotc.io/pt/nexotc/waitlist/</loc>
-        <lastmod>2025-04-15</lastmod>
+        <lastmod>2025-04-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/nexotc/waitlist/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.nexotc.io/nexotc/waitlist/"/>
-    </url>
-    <url>
-        <loc>https://docs.nexotc.io/pt/home/faq/</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/home/faq/"/>
-    </url>
-    <url>
-        <loc>https://docs.nexotc.io/pt/home/getting-started/</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/home/getting-started/"/>
-    </url>
-    <url>
-        <loc>https://docs.nexotc.io/pt/home/waitlist/</loc>
-        <lastmod>2025-04-15</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://docs.nexotc.io/pt/home/waitlist/"/>
     </url>
 </urlset>
