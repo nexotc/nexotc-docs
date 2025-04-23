@@ -77,4 +77,4 @@ The NexOTC Points System:
 - Offers meaningful perks without exposing activity
 - Prepares users for the token economy ahead
 
-[Get started now](../home/getting-started.md) and start earning as you trade.
+[Get started now](../nexotc/getting-started.md) and start earning as you trade.

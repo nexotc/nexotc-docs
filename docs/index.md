@@ -24,7 +24,7 @@ hide:
 - 🏦 **Custom Institutional Desks** — Launch private OTC desks with dedicated trade parameters, wallet controls and post-trade reporting — built for funds, family offices and enterprises.
 
 !!! note "No Access?"
-    NexOTC is currently in pre-launch phase. If you don’t have access yet, [join the waitlist](../waitlist) to be the first to know when onboarding opens.
+    NexOTC is currently in pre-launch phase. If you don’t have access yet, [join the waitlist](nexotc/waitlist.md) to be the first to know when onboarding opens.
 
 <div style="margin-top: 2em">
 <a href="nexotc/getting-started/" class="md-button md-button--primary">
