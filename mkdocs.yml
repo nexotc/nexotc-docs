@@ -9,39 +9,39 @@ copyright: "Copyright © 2025 NexOTC"
 nav:
   - Home: index.md
   - NexOTC:
-      - '🛫 Getting Started': nexotc/getting-started.md
-      - '⏳ Waitlist': nexotc/waitlist.md
-      - '🗺️ Roadmap': nexotc/roadmap.md
-      - '❓ FAQ': nexotc/faq.md
+      - 'Getting Started': nexotc/getting-started.md
+      - 'Waitlist': nexotc/waitlist.md
+      - 'Roadmap': nexotc/roadmap.md
+      - 'FAQ': nexotc/faq.md
 
   - Modules:
-      - '🧭 Overview': modules/overview.md
-      - '📜 Trustless OTC Escrow': modules/trustless-escrow.md
-      - '🤖 AI Matchmaking Agents': modules/ai-agents.md
-      - '💸 Fee & Commission Structure': modules/fee-system.md
-      - '🛡️ Multi-Layered Privacy': modules/privacy-stack.md
-      - '🪙 Asset & Token Support': modules/token-support.md
-      - '🔄 OTC Trade Workflow': modules/user-flow.md
+      - 'Overview': modules/overview.md
+      - 'Trustless OTC Escrow': modules/trustless-escrow.md
+      - 'AI Matchmaking Agents': modules/ai-agents.md
+      - 'Fees & Commission Structure': modules/fee-and-commission-system.md
+      - 'Multi-Layered Privacy': modules/privacy-stack.md
+      - 'Tranche & Milestone Settlement': modules/tranche-and-milestone-settlement.md
+      - 'Asset & Token Support': modules/token-support.md
+      - 'OTC Trade Workflow': modules/user-flow.md
 
   - Compliance:
-      - '🧬 ZK Identity': compliance/zk-identity.md
-      - '⚖️ Legal & Jurisdiction': compliance/legal-readiness.md
-      - '🤝 Partners & Integrations': compliance/compliance-partners.md
+      - 'ZK Identity': compliance/zk-identity.md
+      - 'Legal & Jurisdiction': compliance/legal-readiness.md
+      - 'Partners & Integrations': compliance/compliance-partners.md
 
   - For Institutions:
-      - '🏦 How institutions Use NexOTC': institutions/institutional-flows.md
-      - '🛠️ Create a Private OTC Desk': institutions/custom-desk.md
-      - '🔐 Multi-Sig & Proxy Wallets': institutions/wallet-controls.md
-      - '📑 Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
+      - 'How institutions Use NexOTC': institutions/institutional-flows.md
+      - 'Create a Private OTC Desk': institutions/custom-desk.md
+      - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
 
   - Earning with NexOTC:
-      - '🎯 Referral & Introducer Setup': earning/referral-program.md
-      - '🎁 Points & Loyalty Rewards': earning/rewards.md
-      - '🪙 Revenue Share': earning/revenue-share.md
+      - 'Referral & Introducer Setup': earning/referral-program.md
+      - 'Points & Loyalty Rewards': earning/rewards.md
+      - 'Revenue Share': earning/revenue-share.md
 
   - Links:
-      - '🆘 Support': links/support.md
-      - '📃 TOS & Privacy Policy': links/tos-privacy.md
+      - 'Support': links/support.md
+      - 'TOS & Privacy Policy': links/tos-privacy.md
 
 theme:
   name: material
@@ -49,19 +49,19 @@ theme:
   logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
   icon:
-    alternate: fontawesome/solid/globe
     repo: fontawesome/brands/github
   features:
-    - i18n.locale_switch
     - navigation.expand
+    - navigation.path
     - navigation.sections
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - toc.follow
-    - toc.integrate
     - content.code.copy
     - content.action.edit
     - content.action.view
+    - search.suggest
     - search.highlight
     - search.share
     - announce.dismiss
@@ -109,6 +109,9 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -121,26 +124,17 @@ plugins:
   - mike
   - tags
   - glightbox
-  - i18n:
-      docs_structure: folder
-      languages:
-        - locale: en
-          name: English
-          build: true
-          default: true
-        - locale: pt
-          name: Português
-          build: true
   - git-revision-date-localized
 
 extra:
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: Português
-      link: /pt/
-      lang: pt
+  consent:
+    actions:
+      - accept
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
   version:
     provider: mike
   generator: false

@@ -22,4 +22,4 @@
 	The platform uses a transparent fee and commission structure, including built-in support for introducer payouts and custom OTC desks.
 
 ??? abstract "How can I get early access?"
-	You can join the waitlist to be notified when access becomes available.
+	You can [join the waitlist](../nexotc/waitlist.md) to be notified when access becomes available.

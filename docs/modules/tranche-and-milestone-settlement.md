@@ -1,4 +1,4 @@
-# OTC Trade Workflow
+# Tranche & Milestone Settlement
 
 !!! info "End-to-end, Trustless Trade Lifecycle"
     Every OTC transaction on NexOTC follows a customizable workflow with compliance, privacy and escrow protection from negotiation to settlement.

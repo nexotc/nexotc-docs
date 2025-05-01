@@ -3,13 +3,25 @@
 !!! tip "Start your NexOTC journey!"
     Whether you're trading as an individual or representing an institution, here’s how to get onboarded and start exploring NexOTC.
 
----
-<h2>Access & Onboarding</h2>
+<h2>Access Requirements</h2>
+- 🔐 Non-Custodial Wallet (e.g. MetaMask)
+- 🪪 Verified Identity (KYC/KYB with ZK-Compliance)
+- 💸 Minimum Deal Size: $25,000
+- ✉️ Invitation or Waitlist Access (Initial Launch)
 
-=== "Individuals"
+<h2>Onboarding</h2>
 
-    * Coming Soon...
+```mermaid
+flowchart TD
+    A[Start Onboarding] --> B{Choose User Type}
+    B -->|Individual| C[Identity Verification]
+    B -->|Institution| D[Business Verification]
 
-=== "Institutions"
+    C --> E[Connect Personal Wallet]
+    D --> F[Connect Institutional Wallet]
 
-    * Coming Soon...
+    E --> G[Identity Verified & zk-Proof Created]
+    F --> G
+
+    G --> H[Start Trading via NexOTC Dashboard]
+```
