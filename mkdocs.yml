@@ -128,9 +128,12 @@ plugins:
 
 extra:
   consent:
+    title: Cookie Consent
+    description: >-
+      This website uses cookies to ensure you get the best experience.
     actions:
       - accept
-      - manage
+      - reject
     cookies:
       analytics:
         name: Google Analytics
