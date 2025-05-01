@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="pt" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -55,7 +55,7 @@
 
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F4TY0PXZ2Z"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F4TY0PXZ2Z",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F4TY0PXZ2Z",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
-    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
   
 
     
@@ -91,9 +91,11 @@
     
       
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="/pt/" title="NexOTC Documentation" class="md-header__button md-logo" aria-label="NexOTC Documentation" data-md-component="logo">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="/." title="NexOTC Documentation" class="md-header__button md-logo" aria-label="NexOTC Documentation" data-md-component="logo">
       
   <img src="/assets/images/logo.png" alt="logo">
 
@@ -149,32 +151,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-      <div class="md-header__option">
-  <div class="md-select">
-    
-    <button class="md-header__button md-icon" aria-label="Selecione o idioma">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.4c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.3c2.2 20.4 3.3 41.8 3.3 64m28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64m112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7m-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6M8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64m186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.7z"/></svg>
-    </button>
-    <div class="md-select__inner">
-      <ul class="md-select__list">
-        
-          <li class="md-select__item">
-            <a href="/nexotc/waitlist/" hreflang="en" class="md-select__link">
-              English
-            </a>
-          </li>
-        
-          <li class="md-select__item">
-            <a href="/pt/nexotc/waitlist/" hreflang="pt" class="md-select__link">
-              Português
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</div>
-    
     
       
       
@@ -186,32 +162,34 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Pesquisar">
+      <nav class="md-search__options" aria-label="Search">
         
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
             
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
           </a>
         
-        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Inicializando a pesquisa
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -223,7 +201,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/nexotc/nexotc-docs" title="Ir ao repositório" class="md-source" data-md-component="source">
+        <a href="https://github.com/nexotc/nexotc-docs" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -236,15 +214,9 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
-<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -254,7 +226,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/pt/" class="md-tabs__link">
+      <a href="/." class="md-tabs__link">
         
   
   
@@ -275,7 +247,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/pt/nexotc/getting-started/" class="md-tabs__link">
+        <a href="/nexotc/getting-started/" class="md-tabs__link">
           
   
   
@@ -295,7 +267,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/pt/modules/overview/" class="md-tabs__link">
+        <a href="/modules/overview/" class="md-tabs__link">
           
   
   
@@ -315,7 +287,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/pt/compliance/zk-identity/" class="md-tabs__link">
+        <a href="/compliance/zk-identity/" class="md-tabs__link">
           
   
   
@@ -335,7 +307,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/pt/institutions/institutional-flows/" class="md-tabs__link">
+        <a href="/institutions/institutional-flows/" class="md-tabs__link">
           
   
   
@@ -355,7 +327,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/pt/earning/referral-program/" class="md-tabs__link">
+        <a href="/earning/referral-program/" class="md-tabs__link">
           
   
   
@@ -375,7 +347,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/pt/links/support/" class="md-tabs__link">
+        <a href="/links/support/" class="md-tabs__link">
           
   
   
@@ -390,7 +362,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -407,11 +385,9 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/pt/" title="NexOTC Documentation" class="md-nav__button md-logo" aria-label="NexOTC Documentation" data-md-component="logo">
+    <a href="/." title="NexOTC Documentation" class="md-nav__button md-logo" aria-label="NexOTC Documentation" data-md-component="logo">
       
   <img src="/assets/images/logo.png" alt="logo">
 
@@ -420,7 +396,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/nexotc/nexotc-docs" title="Ir ao repositório" class="md-source" data-md-component="source">
+      <a href="https://github.com/nexotc/nexotc-docs" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -440,7 +416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/" class="md-nav__link">
+      <a href="/." class="md-nav__link">
         
   
   
@@ -507,12 +483,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/nexotc/getting-started/" class="md-nav__link">
+      <a href="/nexotc/getting-started/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🛫 Getting Started
+    Getting Started
     
   </span>
   
@@ -530,12 +506,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/nexotc/waitlist/" class="md-nav__link">
+      <a href="/nexotc/waitlist/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    ⏳ Waitlist
+    Waitlist
     
   </span>
   
@@ -553,12 +529,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/nexotc/roadmap/" class="md-nav__link">
+      <a href="/nexotc/roadmap/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🗺️ Roadmap
+    Roadmap
     
   </span>
   
@@ -576,12 +552,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/nexotc/faq/" class="md-nav__link">
+      <a href="/nexotc/faq/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    ❓ FAQ
+    FAQ
     
   </span>
   
@@ -651,12 +627,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/overview/" class="md-nav__link">
+      <a href="/modules/overview/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🧭 Overview
+    Overview
     
   </span>
   
@@ -674,12 +650,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/trustless-escrow/" class="md-nav__link">
+      <a href="/modules/trustless-escrow/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    📜 Trustless OTC Escrow
+    Trustless OTC Escrow
     
   </span>
   
@@ -697,12 +673,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/ai-agents/" class="md-nav__link">
+      <a href="/modules/ai-agents/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🤖 AI Matchmaking Agents
+    AI Matchmaking Agents
     
   </span>
   
@@ -720,12 +696,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/fee-system/" class="md-nav__link">
+      <a href="/modules/fee-and-commission-system/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    💸 Fee & Commission Structure
+    Fees & Commission Structure
     
   </span>
   
@@ -743,12 +719,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/privacy-stack/" class="md-nav__link">
+      <a href="/modules/privacy-stack/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🛡️ Multi-Layered Privacy
+    Multi-Layered Privacy
     
   </span>
   
@@ -766,12 +742,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/token-support/" class="md-nav__link">
+      <a href="/modules/tranche-and-milestone-settlement/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🪙 Asset & Token Support
+    Tranche & Milestone Settlement
     
   </span>
   
@@ -789,12 +765,35 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/modules/user-flow/" class="md-nav__link">
+      <a href="/modules/token-support/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🔄 OTC Trade Workflow
+    Asset & Token Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/modules/user-flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OTC Trade Workflow
     
   </span>
   
@@ -864,12 +863,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/compliance/zk-identity/" class="md-nav__link">
+      <a href="/compliance/zk-identity/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🧬 ZK Identity
+    ZK Identity
     
   </span>
   
@@ -887,12 +886,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/compliance/legal-readiness/" class="md-nav__link">
+      <a href="/compliance/legal-readiness/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    ⚖️ Legal & Jurisdiction
+    Legal & Jurisdiction
     
   </span>
   
@@ -910,12 +909,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/compliance/compliance-partners/" class="md-nav__link">
+      <a href="/compliance/compliance-partners/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🤝 Partners & Integrations
+    Partners & Integrations
     
   </span>
   
@@ -985,12 +984,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/institutions/institutional-flows/" class="md-nav__link">
+      <a href="/institutions/institutional-flows/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🏦 How institutions Use NexOTC
+    How institutions Use NexOTC
     
   </span>
   
@@ -1008,12 +1007,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/institutions/custom-desk/" class="md-nav__link">
+      <a href="/institutions/custom-desk/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🛠️ Create a Private OTC Desk
+    Create a Private OTC Desk
     
   </span>
   
@@ -1031,35 +1030,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/institutions/wallet-controls/" class="md-nav__link">
+      <a href="/institutions/post-trade-compliance/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🔐 Multi-Sig & Proxy Wallets
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="/pt/institutions/post-trade-compliance/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    📑 Post-Trade Compliance & Reporting
+    Post-Trade Compliance & Reporting
     
   </span>
   
@@ -1129,12 +1105,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/earning/referral-program/" class="md-nav__link">
+      <a href="/earning/referral-program/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🎯 Referral & Introducer Setup
+    Referral & Introducer Setup
     
   </span>
   
@@ -1152,12 +1128,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/earning/rewards/" class="md-nav__link">
+      <a href="/earning/rewards/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🎁 Points & Loyalty Rewards
+    Points & Loyalty Rewards
     
   </span>
   
@@ -1175,12 +1151,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/earning/revenue-share/" class="md-nav__link">
+      <a href="/earning/revenue-share/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🪙 Revenue Share
+    Revenue Share
     
   </span>
   
@@ -1250,12 +1226,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/links/support/" class="md-nav__link">
+      <a href="/links/support/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    🆘 Support
+    Support
     
   </span>
   
@@ -1273,12 +1249,12 @@
   
   
     <li class="md-nav__item">
-      <a href="/pt/links/tos-privacy/" class="md-nav__link">
+      <a href="/links/tos-privacy/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    📃 TOS & Privacy Policy
+    TOS & Privacy Policy
     
   </span>
   
@@ -1303,6 +1279,22 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           
             <div class="md-content" data-md-component="content">
@@ -1320,7 +1312,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Voltar ao topo
+  Back to top
 </button>
         
       </main>
@@ -1398,9 +1390,82 @@
     </div>
     
     
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4></h4>
+<p></p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["i18n.locale_switch", "navigation.expand", "navigation.sections", "navigation.tabs", "navigation.top", "toc.follow", "toc.integrate", "content.code.copy", "content.action.edit", "content.action.view", "search.highlight", "search.share", "announce.dismiss", "navigation.footer"], "search": "/assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": {"provider": "mike"}}</script>
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "/", "features": ["navigation.expand", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.follow", "content.code.copy", "content.action.edit", "content.action.view", "search.suggest", "search.highlight", "search.share", "announce.dismiss", "navigation.footer"], "search": "/assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="/assets/javascripts/bundle.c8b220af.min.js"></script>

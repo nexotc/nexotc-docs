@@ -7,11 +7,11 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Private. Secure. Trustless." name="description"/>
 <link href="https://docs.nexotc.io/modules/token-support/" rel="canonical"/>
-<link href="../privacy-stack/" rel="prev"/>
+<link href="../tranche-and-milestone-settlement/" rel="prev"/>
 <link href="../user-flow/" rel="next"/>
 <link href="../../assets/images/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.12" name="generator"/>
-<title>🪙 Asset &amp; Token Support - NexOTC Documentation</title>
+<title>Asset &amp; Token Support - NexOTC Documentation</title>
 <link href="../../assets/stylesheets/main.2afb09e1.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -19,7 +19,7 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F4TY0PXZ2Z"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F4TY0PXZ2Z",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F4TY0PXZ2Z",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+<script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
@@ -43,7 +43,7 @@
 </div>
 <div data-md-color-scheme="default" data-md-component="outdated" hidden="">
 </div>
-<header class="md-header" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
 <a aria-label="NexOTC Documentation" class="md-header__button md-logo" data-md-component="logo" href="../.." title="NexOTC Documentation">
 <img alt="logo" src="../../assets/images/logo.png"/>
@@ -61,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              🪙 Asset &amp; Token Support
+              Asset &amp; Token Support
             
           </span>
 </div>
@@ -78,27 +78,6 @@
 </label>
 </form>
 <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-<div class="md-header__option">
-<div class="md-select">
-<button aria-label="Select language" class="md-header__button md-icon">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.4c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.3c2.2 20.4 3.3 41.8 3.3 64m28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64m112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7m-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6M8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64m186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.7z"></path></svg>
-</button>
-<div class="md-select__inner">
-<ul class="md-select__list">
-<li class="md-select__item">
-<a class="md-select__link" href="./" hreflang="en">
-              English
-            </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../pt/modules/token-support/" hreflang="pt">
-              Português
-            </a>
-</li>
-</ul>
-</div>
-</div>
-</div>
 <label class="md-header__button md-icon" for="__search">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
 </label>
@@ -119,6 +98,7 @@
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
 </button>
 </nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
 </form>
 <div class="md-search__output">
 <div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
@@ -143,8 +123,6 @@
 </a>
 </div>
 </nav>
-</header>
-<div class="md-container" data-md-component="container">
 <nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
@@ -216,12 +194,14 @@
 </ul>
 </div>
 </nav>
+</header>
+<div class="md-container" data-md-component="container">
 <main class="md-main" data-md-component="main">
 <div class="md-main__inner md-grid">
 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
-<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
 <a aria-label="NexOTC Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="NexOTC Documentation">
 <img alt="logo" src="../../assets/images/logo.png"/>
@@ -265,7 +245,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../nexotc/getting-started/">
 <span class="md-ellipsis">
-    🛫 Getting Started
+    Getting Started
     
   </span>
 </a>
@@ -273,7 +253,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../nexotc/waitlist/">
 <span class="md-ellipsis">
-    ⏳ Waitlist
+    Waitlist
     
   </span>
 </a>
@@ -281,7 +261,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../nexotc/roadmap/">
 <span class="md-ellipsis">
-    🗺️ Roadmap
+    Roadmap
     
   </span>
 </a>
@@ -289,7 +269,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../nexotc/faq/">
 <span class="md-ellipsis">
-    ❓ FAQ
+    FAQ
     
   </span>
 </a>
@@ -315,7 +295,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../overview/">
 <span class="md-ellipsis">
-    🧭 Overview
+    Overview
     
   </span>
 </a>
@@ -323,7 +303,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../trustless-escrow/">
 <span class="md-ellipsis">
-    📜 Trustless OTC Escrow
+    Trustless OTC Escrow
     
   </span>
 </a>
@@ -331,15 +311,15 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../ai-agents/">
 <span class="md-ellipsis">
-    🤖 AI Matchmaking Agents
+    AI Matchmaking Agents
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../fee-system/">
+<a class="md-nav__link" href="../fee-and-commission-system/">
 <span class="md-ellipsis">
-    💸 Fee &amp; Commission Structure
+    Fees &amp; Commission Structure
     
   </span>
 </a>
@@ -347,7 +327,15 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../privacy-stack/">
 <span class="md-ellipsis">
-    🛡️ Multi-Layered Privacy
+    Multi-Layered Privacy
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tranche-and-milestone-settlement/">
+<span class="md-ellipsis">
+    Tranche &amp; Milestone Settlement
     
   </span>
 </a>
@@ -356,7 +344,7 @@
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
-    🪙 Asset &amp; Token Support
+    Asset &amp; Token Support
     
   </span>
 </a>
@@ -364,7 +352,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../user-flow/">
 <span class="md-ellipsis">
-    🔄 OTC Trade Workflow
+    OTC Trade Workflow
     
   </span>
 </a>
@@ -390,7 +378,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../compliance/zk-identity/">
 <span class="md-ellipsis">
-    🧬 ZK Identity
+    ZK Identity
     
   </span>
 </a>
@@ -398,7 +386,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../compliance/legal-readiness/">
 <span class="md-ellipsis">
-    ⚖️ Legal &amp; Jurisdiction
+    Legal &amp; Jurisdiction
     
   </span>
 </a>
@@ -406,7 +394,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../compliance/compliance-partners/">
 <span class="md-ellipsis">
-    🤝 Partners &amp; Integrations
+    Partners &amp; Integrations
     
   </span>
 </a>
@@ -432,7 +420,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../institutions/institutional-flows/">
 <span class="md-ellipsis">
-    🏦 How institutions Use NexOTC
+    How institutions Use NexOTC
     
   </span>
 </a>
@@ -440,15 +428,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../institutions/custom-desk/">
 <span class="md-ellipsis">
-    🛠️ Create a Private OTC Desk
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../institutions/wallet-controls/">
-<span class="md-ellipsis">
-    🔐 Multi-Sig &amp; Proxy Wallets
+    Create a Private OTC Desk
     
   </span>
 </a>
@@ -456,7 +436,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../institutions/post-trade-compliance/">
 <span class="md-ellipsis">
-    📑 Post-Trade Compliance &amp; Reporting
+    Post-Trade Compliance &amp; Reporting
     
   </span>
 </a>
@@ -482,7 +462,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../earning/referral-program/">
 <span class="md-ellipsis">
-    🎯 Referral &amp; Introducer Setup
+    Referral &amp; Introducer Setup
     
   </span>
 </a>
@@ -490,7 +470,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../earning/rewards/">
 <span class="md-ellipsis">
-    🎁 Points &amp; Loyalty Rewards
+    Points &amp; Loyalty Rewards
     
   </span>
 </a>
@@ -498,7 +478,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../earning/revenue-share/">
 <span class="md-ellipsis">
-    🪙 Revenue Share
+    Revenue Share
     
   </span>
 </a>
@@ -524,7 +504,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../links/support/">
 <span class="md-ellipsis">
-    🆘 Support
+    Support
     
   </span>
 </a>
@@ -532,7 +512,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../links/tos-privacy/">
 <span class="md-ellipsis">
-    📃 TOS &amp; Privacy Policy
+    TOS &amp; Privacy Policy
     
   </span>
 </a>
@@ -541,6 +521,14 @@
 </nav>
 </li>
 </ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 </nav>
 </div>
 </div>
@@ -614,7 +602,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: 🛡️ Multi-Layered Privacy" class="md-footer__link md-footer__link--prev" href="../privacy-stack/">
+<a aria-label="Previous: Tranche &amp; Milestone Settlement" class="md-footer__link md-footer__link--prev" href="../tranche-and-milestone-settlement/">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
 </div>
@@ -623,17 +611,17 @@
                 Previous
               </span>
 <div class="md-ellipsis">
-                🛡️ Multi-Layered Privacy
+                Tranche &amp; Milestone Settlement
               </div>
 </div>
 </a>
-<a aria-label="Next: 🔄 OTC Trade Workflow" class="md-footer__link md-footer__link--next" href="../user-flow/">
+<a aria-label="Next: OTC Trade Workflow" class="md-footer__link md-footer__link--next" href="../user-flow/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 Next
               </span>
 <div class="md-ellipsis">
-                🔄 OTC Trade Workflow
+                OTC Trade Workflow
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -669,7 +657,40 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["i18n.locale_switch", "navigation.expand", "navigation.sections", "navigation.tabs", "navigation.top", "toc.follow", "toc.integrate", "content.code.copy", "content.action.edit", "content.action.view", "search.highlight", "search.share", "announce.dismiss", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+<div class="md-consent" data-md-component="consent" hidden="" id="__consent">
+<div class="md-consent__overlay"></div>
+<aside class="md-consent__inner">
+<form class="md-consent__form md-grid md-typeset" name="consent">
+<h4></h4>
+<p></p>
+<input class="md-toggle" id="__settings" type="checkbox"/>
+<div class="md-consent__settings">
+<ul class="task-list">
+<li class="task-list-item">
+<label class="task-list-control">
+<input checked="" name="github" type="checkbox"/>
+<span class="task-list-indicator"></span>
+      GitHub
+    </label>
+</li>
+<li class="task-list-item">
+<label class="task-list-control">
+<input name="analytics" type="checkbox"/>
+<span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+</li>
+</ul>
+</div>
+<div class="md-consent__controls">
+<button class="md-button md-button--primary">Accept</button>
+<label class="md-button" for="__settings">Manage settings</label>
+</div>
+</form>
+</aside>
+</div>
+<script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.follow", "content.code.copy", "content.action.edit", "content.action.view", "search.suggest", "search.highlight", "search.share", "announce.dismiss", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
 <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(() => { lightbox.reload() });
