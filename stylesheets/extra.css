@@ -1,0 +1,16 @@
+/* Override header background */
+.md-tabs,
+.md-header,
+.md-footer__inner,
+.md-footer__link {
+  background-color: #2A2A2A !important;
+}
+
+a.glightbox {
+  pointer-events: none;
+  cursor: default;
+}
+
+.md-footer {
+  background-color: #2A2A2A !important; /* Full width */
+}
