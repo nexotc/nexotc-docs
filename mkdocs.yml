@@ -142,3 +142,6 @@ extra:
       link: https://t.me/nexotc
     - icon: fontawesome/brands/github
       link: https://github.com/nexotc
+
+extra_css:
+  - stylesheets/extra.css
