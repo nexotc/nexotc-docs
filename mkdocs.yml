@@ -127,17 +127,9 @@ plugins:
   - git-revision-date-localized
 
 extra:
-  consent:
-    title: Cookie Consent
-    description: >-
-      This website uses cookies to ensure you get the best experience.
-    actions:
-      - accept
-      - reject
-    cookies:
-      analytics:
-        name: Google Analytics
-        checked: false
+  analytics:
+    provider: google
+    property: G-F4TY0PXZ2Z
   version:
     provider: mike
   generator: false
@@ -150,7 +142,3 @@ extra:
       link: https://t.me/nexotc
     - icon: fontawesome/brands/github
       link: https://github.com/nexotc
-  analytics:
-    provider: google
-    property: G-F4TY0PXZ2Z
-    domain: docs.nexotc.io
