@@ -1,53 +1,35 @@
 # Trustless OTC Escrow
 
-!!! note "What is Trustless Escrow?"
-    NexOTC’s escrow module ensures that both parties fulfill their obligations in a secure, smart contract-enforced environment — without any intermediaries or custodial risk.
+!!! note "What is a Trustless Escrow?"
+    In traditional deals, a middleman usually holds the money or assets until both sides complete the agreement but that means you have to trust the middleman. 
 
-<h2>💡 Why It Matters</h2>
+    NexOTC removes the need for any third party. Instead, a smart contract (a piece of code on the blockchain) holds the assets and only releases them when both sides meet the agreed terms.
 
-Traditional OTC trades often rely on intermediaries (brokers, agents, or custodians) to hold funds and coordinate transfers. This introduces risk, delays, and high fees.
+## Why It Matters
 
-With NexOTC:
+Traditional OTC trades often rely on intermediaries (brokers, agents or custodians) to hold funds and coordinate transfers. This creates risk, adds delays and inflates fees.
 
-- Trades are executed **directly between parties**
-- Funds are held and released via **smart contracts**
-- **Zero counterparty risk** from the platform
-- Everything is enforceable on-chain, automatically
+With NexOTC's Escrow:
 
-<h2>⚙️ Core Features</h2>
+- Trades are executed **directly between counterparties**;
+- Funds are locked and released via **smart contracts**;
+- **Zero counterparty risk** from the platform;
+- Fully **on-chain** and **autonomous**.
 
-!!! info "Smart Contract Logic"
-    Trades are initiated and locked via smart contracts. Both parties must fulfill their end of the deal (signatures, deposits) before the escrow executes.
+## Core Features
 
-!!! info "Tranche-Based Execution"
-    For large deals, escrow supports **phased execution** in tranches. Each tranche is released based on pre-defined conditions (signatures, milestones, time).
+| Feature                       | Description                                                                                                                                 |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Smart Contract Logic       | The entire trade is handled by a smart contract. Both sides must agree, sign and deposit their assets before the deal goes through.         |
+| 2. Tranche-Based Execution    | Large deals can be split into smaller parts, called tranches. Each tranche is released only after certain conditions are met.               |
+| 3. Time-Based Settlement      | Deadlines are built into every trade. If one party fails to act, funds are refunded or settled according to predefined fallback logic.      |
+| 4. Multi-Asset Support        | Supports various asset types including ETH, USDT or wrapped BTC, ERC-20 tokens and future support for tokenized real-word assets.           |
+| 5. Fee Routing Integration    | Automatically sends fees to the right counterparties, introducers and referral partners.                                                    |
+| 6. Slippage Protection        | Escrow can be configured to cancel or pause execution if the market price moves beyond an agreed threshold.                                 |
 
-!!! info "Time-Based Settlement"
-    Deadlines are built into every trade. If one party fails to act, funds are refunded or settled according to predefined fallback logic.
+## How Trust Is Removed
 
-!!! info "Multi-Asset Support"
-    Supports various asset types including:
-    - Crypto (ETH, USDT, BTC via wrapped tokens)
-    - ERC-20 tokens
-    - Tokenized assets (future phase)
-
-!!! info "Fee Routing Integration"
-    Fees (platform, referral, introducers) are automatically routed from the escrow flow to designated wallets.
-
-<h2>🔐 How Trust Is Removed</h2>
-
-- ✅ **No custody** — NexOTC never holds assets.
-- ✅ **Auditable** — Smart contracts are open and verifiable.
-- ✅ **Immutable rules** — Once a trade is created, rules cannot be changed without both parties’ agreement.
-
-<h2>📦 Example Workflow</h2>
-
-1. Buyer and Seller agree on terms (off-chain or via AI Matchmaking)
-2. A smart contract is deployed with:
-   - Amount
-   - Asset type
-   - Deadline
-   - Conditions
-3. Both parties sign
-4. Assets are deposited into the contract
-5. On trigger conditions, the contract auto-settles
+- ✅ **No Custody**: NexOTC never holds assets;
+- ✅ **Auditable**: Smart contracts are open and verifiable;
+- ✅ **Immutable Rules**: Once a trade is created, rules cannot be changed without both parties’ agreement;
+- ✅ **Failsafe Logic**: Predefined fallbacks ensure no funds are stuck

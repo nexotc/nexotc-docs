@@ -1,18 +1,18 @@
 # AI Matchmaking Agents
 
 !!! note "Smarter Matches, Faster Deals"
-    NexOTC uses AI-powered logic to match buyers and sellers based on preferences, trade history, volume, behavioral patterns, and compliance readiness — without compromising privacy.
+    NexOTC uses AI Agents to connect buyers and sellers based on preferences, past behavior, trade size and compliance, without compromising privacy.
 
-<h2>🧠 What Are AI Matchmaking Agents?</h2>
+## What Are AI Matchmaking Agents?
 
-AI Matchmaking Agents are autonomous algorithms that:
+AI Matchmaking Agents are intelligent systems that help users find the right counterparty, without manual searching. They work behind the scenes to:
 
-- Analyze submitted OTC parameters (trade size, asset type, discount range, etc.)
-- Cross-reference behavioral and historical data
-- Consider compliance flags (e.g. KYC status, risk profile)
-- Match users based on compatibility, not just price
+- Review trade preferences like size, asset type, and discount range;
+- Cross-reference behavioral and historical data;
+- Evaluate compliance risk factors, such as jurisdiction, wallet history or past trade flags;
+- Match users based on compatibility, not just price.
 
-<h2>⚙️ How It Works</h2>
+## How It Works
 
 !!! info "1. Trade Preference Analysis"
     Agents parse your inputs: asset type, discount range, tranche preferences, timelines, and more.
@@ -32,14 +32,14 @@ AI Matchmaking Agents are autonomous algorithms that:
 !!! info "5. Private, ZK-Powered Matching"
     All matching data remains **encrypted or ZK-proven**, ensuring your preferences and profile are never exposed.
 
-<h2>📊 Benefits of AI Matchmaking</h2>
+## Benefits of AI Matchmaking
 
 - ⚡ Faster deal discovery
 - 🔍 Better alignment between counterparties
-- 🔒 Built-in privacy (Selective Disclosure)
+- 🔒 Private matching where your identity and preferences remain hidden until a match is confirmed
 - ✅ Fully compatible with compliance logic
 
-<h2>🧩 Future Enhancements</h2>
+## Future Enhancements
 
 - Personalized deal recommendations
 - Feedback loops to learn from successful trades
