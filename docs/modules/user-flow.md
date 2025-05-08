@@ -3,34 +3,30 @@
 !!! info "End-to-end, Trustless Trade Lifecycle"
     Every OTC transaction on NexOTC follows a customizable workflow with compliance, privacy and escrow protection from negotiation to settlement.
 
----
+## Overview of Workflow Phases
 
-<h2>Overview of Workflow Phases</h2>
+| Phase                        | Description                                                                                                                     |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| **1. Matchmaking**           | AI Agents identify the best counterparty based on trade preferences.                                                            |
+| **2. Terms Agreement**       | Discount, tranche settings, commission split, and settlement rules are finalized via user interface.                            |
+| **3. KYC/AML Validation**    | Zero-knowledge identity checks confirm each party’s compliance, without revealing sensitive info.                               |
+| **4. Escrow Deployment**     | A custom smart contract is deployed, locking in the asset types, deal size, tranches and timers.                                |
+| **5. Signature Collection**  | Both parties sign to confirm terms. Multi-Sig support is available.                                                             |
+| **6. Asset Transfer**        | Assets are exchanged securely via the escrow contract and routed to the right wallets (including proxy wallets if enabled).     |
+| **7. Post-Trade Compliance** | A zk-proof audit trail is generated for regulatory or internal reporting, with selective disclosure as needed.                  |
 
-| Phase                    | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **1. Matchmaking**       | AI Agents identify suitable counterparties based on trade preferences.     |
-| **2. Terms Agreement**   | Discount, volume, tranche logic, and commission setup agreed via UI.       |
-| **3. KYC/AML Validation**| ZK-powered checks validate identity & jurisdiction, without exposure.     |
-| **4. Escrow Deployment** | Smart contract deployed with custom logic (assets, tranches, timers).      |
-| **5. Signature Collection** | Both parties co-sign the final transaction and terms.                  |
-| **6. Asset Transfer**    | Assets are exchanged via the smart contract and routed to final wallets.   |
-| **7. Post-Trade Compliance** | ZK-proof + audit trail is generated for reporting.                  |
-
----
-
-<h2>OTC Trade Execution Flow</h2>
+## OTC Trade Execution Flow
 
 ```mermaid
 flowchart TD
   A[Create Trade Offer] --> B[Offer Published]
   B --> C[Counterparty Accepts / Counters]
   C --> D[Terms Finalized & Smart Contract Escrow Deployed]
-  D --> E1[Optional #1: Multi-Sig Wallet Setup]
-  D --> E2[Optional #1: Proxy Wallet Creation]
+  D --> E1[Optional: Multi-Sig Wallet Setup]
+  D --> E2[Optional: Proxy Wallet Setup]
 
-  E1 --> F1[Optional #2: Signature Collection]
-  E2 --> F2[Optional #2: Asset Deposits to Proxy Wallets]
+  E1 --> F1[Optional: Signature Collection]
+  E2 --> F2[Optional: Asset Funding via Proxy Wallet]
 
   F1 --> G[Funds Deposited]
   F2 --> G

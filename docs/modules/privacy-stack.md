@@ -1,23 +1,23 @@
 # Multi-Layered Privacy
 
-!!! note "Customizable Privacy"
-    NexOTC offers dynamic privacy options across every phase of the OTC trade. From wallet routing to disclosure settings, users maintain full control over what is shared and with whom.
+!!! note "Customizable Privacy, Built for Trust"
+    Privacy isn’t one-size-fits-all. NexOTC gives every user full control over what they share and when, without compromising on compliance or security.
 
-<h2>What is Multi-Layered Privacy?</h2>
+## What is Multi-Layered Privacy?
 
-At NexOTC, privacy isn’t a toggle — it’s a stack. We offer **graduated privacy levels** to match both the **user’s preferences** and **regulatory needs**:
+At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system with multiple layers that adjust to your needs whether you're an individual, a fund or an institution.
 
 | Level     | Features                                                                 | Ideal For                           |
 |-----------|--------------------------------------------------------------------------|-------------------------------------|
 | **Low**   | zk-KYC, AML Check                                                        | Standard KYC users                  |
-| **Medium**| Selective Disclosure                                                     | Professionals, brokers              |
-| **High**  | Proxy Routing, Multi-Sig                                                 | Funds, DAOs, Family Offices         |
+| **Medium**| Selective Disclosure (Share Only What's Needed)                          | Professionals, brokers              |
+| **High**  | Proxy Routing, Multi-Sig Wallets                                         | Funds, DAOs, Family Offices         |
 
-<h2>Key Privacy Components</h2>
+## Key Privacy Tools
 
 === "zk-KYC & AML Verification"
 
-    Your identity and compliance status are securely verified without exposing any sensitive personal or institutional data.
+    Your identity and compliance status are verified using zero-knowledge proofs which means you can prove you're verified **without revealing personal details**.
     ```mermaid
     flowchart TD
       A[Wallet Connect] --> B[Submit KYC/KYB Info]
@@ -33,9 +33,9 @@ At NexOTC, privacy isn’t a toggle — it’s a stack. We offer **graduated pri
     style E stroke-width:2px,stroke-dasharray: 5 5;
     ```
 
-=== "Multi-Sig Wallet Setup"
+=== "Multi-Sig Wallets"
 
-    Multi-signature wallets provide shared control and added protection, making them a reliable choice for individuals, teams and institutions.
+    Multi-signature wallets require approvals from multiple parties before a trade goes through. Perfect for teams, DAOs or anyone who needs shared control over funds.
     ```mermaid
     flowchart TD
       A[Define Signers & Threshold] --> B[Deploy Multi-Sig Wallet]
@@ -48,9 +48,9 @@ At NexOTC, privacy isn’t a toggle — it’s a stack. We offer **graduated pri
     style E stroke-width:2px,stroke-dasharray: 5 5;
     ```
 
-=== "Proxy Wallet Setup & Routing"
+=== "Proxy Wallet for Private Routing"
 
-    Trades are routed through one-time-use wallets to prevent address tracking, especially useful for counterparties requiring confidentiality.
+    Trades can be routed through temporary one-time wallets. This protects your main wallet address from being tracked, especially useful in sensitive deals.
     ```mermaid
     flowchart TD
       A[Generate Proxy Wallet] --> B[Link Proxy Wallet to Main Profile]
@@ -63,6 +63,6 @@ At NexOTC, privacy isn’t a toggle — it’s a stack. We offer **graduated pri
     style D stroke-width:2px,stroke-dasharray: 5 5;
     ```
 
-<h2>Compliance First</h2>
+## Compliance Comes First
 
-All privacy settings are **auditable** using zk-Proofs and built with regulators in mind. Users must still complete mandatory KYC/KYB — but can decide **what's visible to counterparties**.
+All privacy features are designed with regulation in mind. Users still complete KYC/KYB, but thanks to zero-knowledge proofs, they can control what’s visible to counterparties while keeping everything fully auditable.

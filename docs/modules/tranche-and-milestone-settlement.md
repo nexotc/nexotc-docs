@@ -1,45 +1,49 @@
 # Tranche & Milestone Settlement
 
-!!! info "End-to-end, Trustless Trade Lifecycle"
-    Every OTC transaction on NexOTC follows a customizable workflow with compliance, privacy and escrow protection from negotiation to settlement.
+!!! info "Flexible Settlement with Built-in Risk Control"
+    Not every OTC trade needs to settle all at once. NexOTC supports flexible execution using tranches, with optional milestone triggers for better control and reduced risk.
 
----
+## What is a Tranche?
 
-<h2>Overview of Workflow Phases</h2>
+Instead of sending the full amount in one go, a trade can be **broken into multiple tranches** (smaller parts released over time or when certain conditions are met). 
 
-| Phase                    | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **1. Matchmaking**       | AI Agents identify suitable counterparties based on trade preferences.     |
-| **2. Terms Agreement**   | Discount, volume, tranche logic, and commission setup agreed via UI.       |
-| **3. KYC/AML Validation**| ZK-powered checks validate identity & jurisdiction, without exposure.     |
-| **4. Escrow Deployment** | Smart contract deployed with custom logic (assets, tranches, timers).      |
-| **5. Signature Collection** | Both parties co-sign the final transaction and terms.                  |
-| **6. Asset Transfer**    | Assets are exchanged via the smart contract and routed to final wallets.   |
-| **7. Post-Trade Compliance** | ZK-proof + audit trail is generated for reporting.                  |
+This gives both sides peace of mind in large or complex deals. Funds are only released as the trade progresses, making it easier to manage liquidity and trust.
 
----
+## Tranche-Based Settlement
 
-<h2>OTC Trade Execution Flow</h2>
+For large deals that are broken into tranches, commissions are released in sync with each tranche.
+
+- The number of tranches and payout timing is **agreed upfront**;
+- Each commission is only sent when its tranche settles;
+- This keeps incentives aligned and fully automated.
 
 ```mermaid
 flowchart TD
-  A[Create Trade Offer] --> B[Offer Published]
-  B --> C[Counterparty Accepts / Counters]
-  C --> D[Terms Finalized & Smart Contract Escrow Deployed]
-  D --> E1[Optional #1: Multi-Sig Wallet Setup]
-  D --> E2[Optional #1: Proxy Wallet Creation]
+  A[OTC Deal Created with Tranches] --> B{Tranche 1 Conditions Met?}
+  B -- Yes --> C[Tranche 1 Released via Smart Contract]
+  B -- No --> D[Await Time/Milestone]
+  C --> E{Next Tranche?}
+  E -- Yes --> F[Repeat Condition Check]
+  E -- No --> G[Deal Fully Settled]
 
-  E1 --> F1[Optional #2: Signature Collection]
-  E2 --> F2[Optional #2: Asset Deposits to Proxy Wallets]
-
-  F1 --> G[Funds Deposited]
-  F2 --> G
-
-  G --> H[zk-Proof Compliance & Signature Check]
-  H --> I[Final Asset Settlement]
-
-style E1 stroke-width:2px,stroke-dasharray: 5 5;
-style E2 stroke-width:2px,stroke-dasharray: 5 5;
-style F1 stroke-width:2px,stroke-dasharray: 5 5;
-style F2 stroke-width:2px,stroke-dasharray: 5 5;
+  style B stroke-dasharray: 5 5
+  style E stroke-dasharray: 5 5
 ```
+
+## Milestone-Based Settlement
+
+You can add **custom conditions** to each tranche such as:
+
+- A specific date or countdown timer
+- A required signature or approval[^1]
+- An external trigger or API event[^2]
+
+These are optional. If no milestones are defined, tranches can settle based on time or manual approval alone.
+
+[^1]: 
+     This means someone (like a legal team, DAO signer or internal stakeholder) must sign or confirm before a tranche is released.
+     It's useful for high-value deals where oversight or step-by-step confirmation is required.
+
+[^2]:
+     This refers to a condition coming from outside the blockchain like a fiat payment confirmation, asset delivery proof or market price feed.  
+     These conditions are handled via Oracles or APIs to make sure everything stays in sync with real-world actions.

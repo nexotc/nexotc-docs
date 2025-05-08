@@ -14,33 +14,30 @@ AI Matchmaking Agents are intelligent systems that help users find the right cou
 
 ## How It Works
 
-!!! info "1. Trade Preference Analysis"
-    Agents parse your inputs: asset type, discount range, tranche preferences, timelines, and more.
+!!! abstract "1. Understanding Your Trade"
+    Agents look at your inputs: asset type, discount range, tranche preferences, timelines, and more.
 
-!!! info "2. Behavior & Trust Scoring"
-    We track on-chain behaviors (e.g., responsiveness, past trade success) to build a trust score.
+!!! abstract "2. Behavior & Trust Scoring"
+    Based on past activity, responsiveness and completion rates, the system builds a trust profile that helps prioritize reliable matches.
 
-!!! info "3. Counterparty Compatibility"
-    We match you with counterparties who:
-    - Meet your trade parameters
-    - Have similar or compatible timelines
-    - Align on compliance/privacy levels
+!!! abstract "3. Finding the Right Fit"
+    You're matched with counterparties who meet your parameters, share similar timelines and align on privacy or compliance preferences.
 
-!!! info "4. Negotiation Support"
-    Agents can propose **counter-offers** within your set range, helping to finalize deals faster.
+!!! abstract "4. Negotiation Support"
+    Agents can propose **counter-offers** within your accepted range, helping both sides reach a faster agreement.
 
-!!! info "5. Private, ZK-Powered Matching"
-    All matching data remains **encrypted or ZK-proven**, ensuring your preferences and profile are never exposed.
+!!! abstract "5. Privacy Comes First"
+    Your preferences and activity are never publicly exposed. All matching runs on encrypted or ZK-proven data, so your privacy is always preserved.
 
 ## Benefits of AI Matchmaking
 
-- ⚡ Faster deal discovery
-- 🔍 Better alignment between counterparties
-- 🔒 Private matching where your identity and preferences remain hidden until a match is confirmed
-- ✅ Fully compatible with compliance logic
+- ⚡ Faster deal discovery;
+- 🔍 Better alignment between counterparties;
+- 🔒 Private matching where your identity and preferences remain hidden until a match is confirmed;
+- ✅ Fully compatible with compliance rules.
 
 ## Future Enhancements
 
-- Personalized deal recommendations
-- Feedback loops to learn from successful trades
-- AI-based prioritization in waitlist or trade queue
+- Personalized deal recommendations;
+- Feedback loops to learn from successful trades;
+- AI-based prioritization in waitlist or trade queue.
