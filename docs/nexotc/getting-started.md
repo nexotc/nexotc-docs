@@ -11,7 +11,7 @@
 
 ## Onboarding
 
-NexOTC requires a one-time onboarding process that ensures all traders meet global compliance standards, without exposing any personal or business sensitive data.
+NexOTC requires a one-time onboarding process that ensures all traders meet global compliance standards, without exposing any personal or business sensitive data. Once completed, users can execute trades instantly and fully compliant without having to re-verify again.
 
 ```mermaid
 flowchart TD
@@ -24,7 +24,7 @@ flowchart TD
   style D stroke-width:2px,stroke-dasharray: 5 5;
 ```
 
-💡 Once completed, users can execute trades instantly and fully compliant without having to re-verify again.
+💡 Curious how identity verification works behind the scenes? [Learn more about ZK Identity](../compliance/zk-identity.md)
 
 [^1]: 
     Onboarding is proceeded using zero-knowledge proofs which means your identity is confirmed without ever exposing your private data. After completing verification through a secure provider, you're issued a Decentralized Identifier (DID) and a Verifiable Credential (VC) (Example: Getting a digital passport that proves who you are without sharing sensitive info).

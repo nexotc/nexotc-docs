@@ -1,39 +1,46 @@
 # Legal & Jurisdiction
 
 !!! info "Disclaimer"
-    NexOTC is a protocol and documentation project — not a registered financial entity. Users are responsible for complying with local laws and regulations.
+    NexOTC is a **protocol and documentation project**, not a registered financial entity. Users are responsible for complying with local laws and regulations.
 
-## 🌍 Jurisdiction Strategy
+## Jurisdiction Strategy
 
-NexOTC follows a **jurisdiction-aware architecture**, ensuring that operations remain compliant in regions where over-the-counter (OTC) trades are legally permitted for both individuals and institutions.
+NexOTC is created with a **jurisdiction-aware architecture**, allowing the platform to operate within regions where OTC trading is legally recognized for individuals and institutions.
 
-Key jurisdiction focus:
+We prioritize crypto-friendly jurisdictions known for regulatory clarity:
 
-- 🇵🇹 **Portugal (EU)** — Crypto-friendly and attractive for fintech incorporation
-- 🇪🇪 **Estonia (EU)** — Strong digital infrastructure, regulatory clarity
-- 🇦🇪 **UAE (Dubai/ADGM)** — Leading hub for compliant crypto and asset management
-- 🇸🇬 **Singapore** — Progressive stance on tokenized assets and institutional adoption
+- 🇦🇪 **United Arab Emirates** — Leading global hub for Web3 and OTC infrastructure
+- 🇸🇬 **Singapore** — Strong regulatory clarity and institutional adoption
+- 🇨🇭 **Switzerland** — Advanced in tokenization and compliant asset management
+- 🇭🇰 **Hong Kong** — Rapidly emerging as Asia's regulated OTC center
+- 🇵🇹 **Portugal** — Friendly tax climate and growing European crypto base
 
-<h2>🧾 Regulatory Compliance Guidelines</h2>
+## Regulatory Compliance Guidelines
 
-While NexOTC is non-custodial and privacy-first, the platform aligns with global regulatory standards through:
+Even as a non-custodial, NexOTC is built to align with global compliance standards:
 
-- **KYC/KYB Verification** — via zero-knowledge proofs to respect data privacy
-- **AML Screening** — wallet scoring, threshold triggers, and periodic checks
-- **Audit-Friendly Trails** — verifiable transaction proofs and compliance logs
+- **KYC/KYB Verification**: Verified via zero-knowledge proofs (ZKPs) to protect personal data;
+- **AML Screening**: Wallet scoring, sanctions screening and transaction thresholds;
+- **Audit-Friendly Trails**: All trades produce verifiable, zk-proof-based audit trails.
 
-<h2>🛡️ Platform Responsibilities</h2>
+## What NexOTC Does (and Doesn’t Do)
 
-- NexOTC does **not** custody assets or funds
-- NexOTC does **not** facilitate public matching or market making
-- All trades are initiated and approved **peer-to-peer**, requiring mutual consent
+✅ NexOTC **DOES**:
 
-<h2>🧭 User Responsibilities</h2>
+- Provide smart contract-driven OTC infrastructure;
+- Enable private, peer-to-peer trade setup;
+- Automate escrow, settlement and compliance proof generation.
 
-- Ensure that OTC trading is permitted in your jurisdiction
-- Follow your local tax, reporting, and AML obligations
-- Only trade with verified and trusted parties via NexOTC
+🚫 NexOTC **DOES NOT**:
 
----
+- Custody assets or manage funds;
+- Offer liquidity or order book trading;
+- Act as a broker, exchange or financial intermediary.
 
-For partnerships or legal inquiries, please contact our team.
+## User Responsibilities
+
+- Confirm that OTC trading is allowed in your region;
+- Follow local tax, reporting and AML rules;
+
+<br><br>
+For legal inquiries, compliance partnerships or jurisdictional support, please [contact our team](mailto:legal@nexotc.io).
