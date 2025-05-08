@@ -339,40 +339,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#core-privacy-principles">
-<span class="md-ellipsis">
-      Core Privacy Principles
-    </span>
-</a>
-<nav aria-label="Core Privacy Principles" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
 <a class="md-nav__link" href="#commission-routing-logic">
 <span class="md-ellipsis">
       Commission Routing Logic
     </span>
 </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#tranche-based-settlement-logic">
-<span class="md-ellipsis">
-      Tranche-Based Settlement Logic
-    </span>
-</a>
-<nav aria-label="Tranche-Based Settlement Logic" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#test">
-<span class="md-ellipsis">
-      Test
-    </span>
-</a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -594,40 +565,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#core-privacy-principles">
-<span class="md-ellipsis">
-      Core Privacy Principles
-    </span>
-</a>
-<nav aria-label="Core Privacy Principles" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
 <a class="md-nav__link" href="#commission-routing-logic">
 <span class="md-ellipsis">
       Commission Routing Logic
     </span>
 </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#tranche-based-settlement-logic">
-<span class="md-ellipsis">
-      Tranche-Based Settlement Logic
-    </span>
-</a>
-<nav aria-label="Tranche-Based Settlement Logic" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#test">
-<span class="md-ellipsis">
-      Test
-    </span>
-</a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -639,10 +581,10 @@
 <h1 id="fees-commission-structure">Fees &amp; Commission Structure<a class="headerlink" href="#fees-commission-structure" title="Permanent link">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Transparent Fees. Flexible Commissions. Automated Routing.</p>
-<p>NexOTC was created to streamline high-value trades, including how fees and commissions are handled, from platform fees to introducer payouts, all embedded directly into the smart contract workflow.</p>
+<p>NexOTC simplifies high-value OTC trading, including how fees and commissions are handled. From platform charges to introducer payouts, everything is automated through the smart contract, with full privacy built in.</p>
 </div>
 <h2 id="platform-fee-model">Platform Fee Model<a class="headerlink" href="#platform-fee-model" title="Permanent link">¶</a></h2>
-<p>Our fee system is <strong>tiered by deal size</strong>, offering fair pricing across a wide range of OTC trades:</p>
+<p>Our fees are based on deal size, offering fair pricing across a wide range of trades:</p>
 <table>
 <thead>
 <tr>
@@ -670,23 +612,17 @@
 </tbody>
 </table>
 <ol>
-<li>Fees are deducted directly via the escrow smart contract.  </li>
-<li>Both parties are notified of the fee structure prior to execution.  </li>
+<li>Fees are deducted directly via the escrow smart contract;</li>
+<li>Both parties are notified of the fee structure prior to execution;</li>
 <li>Volume-based discounts are available for institutional desks.</li>
 </ol>
-<h2 id="core-privacy-principles">Core Privacy Principles<a class="headerlink" href="#core-privacy-principles" title="Permanent link">¶</a></h2>
-<ul>
-<li>Introducer wallets are <strong>not shown to counterparties</strong></li>
-<li>Percentages are <strong>not visible</strong> to the other side</li>
-<li>Compliance audit shows only total values, with opt-in disclosure</li>
-</ul>
-<h3 id="commission-routing-logic">Commission Routing Logic<a class="headerlink" href="#commission-routing-logic" title="Permanent link">¶</a></h3>
+<h2 id="commission-routing-logic">Commission Routing Logic<a class="headerlink" href="#commission-routing-logic" title="Permanent link">¶</a></h2>
 <p>NexOTC supports <strong>flexible and private commission routing</strong>, ideal for trades involving introducers, brokers and/or facilitators on either side.</p>
 <p>Each party (buyer and seller) can:</p>
 <ul>
-<li>Define up to <strong>3 introducer wallet addresses</strong></li>
-<li>Assign a custom percentage per wallet (total must not exceed 5%)</li>
-<li>Have these fees routed <strong>automatically</strong> by the escrow smart contract</li>
+<li>Up to <strong>3 introducer wallets</strong> per party;</li>
+<li>Custom percentage per wallet (<strong>total capped at 5%</strong>);</li>
+<li>Funds are split and routed on-chain with no manual steps.</li>
 </ul>
 <pre class="mermaid"><code>flowchart TD
   A[Trade Executed] --&gt; B[Smart Contract Calculates Commission %]
@@ -697,30 +633,12 @@
   F --&gt; G[Commission Routing Complete]
 
   style C stroke-dasharray: 5 5</code></pre>
-<h2 id="tranche-based-settlement-logic">Tranche-Based Settlement Logic<a class="headerlink" href="#tranche-based-settlement-logic" title="Permanent link">¶</a></h2>
-<p>For large deals or milestone-based trades, NexOTC supports tranche execution.</p>
-<h3 id="test">Test<a class="headerlink" href="#test" title="Permanent link">¶</a></h3>
-<ul>
-<li>Each party agrees on number of tranches (e.g. 3x $5M)</li>
-<li>Each tranche can be gated by time or manual milestone</li>
-<li>Smart contract enforces execution flow and compliance lock</li>
-</ul>
-<pre class="mermaid"><code>flowchart TD
-  A[OTC Deal Created with Tranches] --&gt; B{Tranche 1 Conditions Met?}
-  B -- Yes --&gt; C[Tranche 1 Released via Smart Contract]
-  B -- No --&gt; D[Await Time/Milestone]
-  C --&gt; E{Next Tranche?}
-  E -- Yes --&gt; F[Repeat Condition Check]
-  E -- No --&gt; G[Deal Fully Settled]
-
-  style B stroke-dasharray: 5 5
-  style E stroke-dasharray: 5 5</code></pre>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 1, 2025 23:11:09">May 1, 2025</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 8, 2025 12:07:51">May 8, 2025</span>
 </span>
 </aside>
 </article>

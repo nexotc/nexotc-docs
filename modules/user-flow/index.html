@@ -344,12 +344,41 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    OTC Trade Workflow
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     OTC Trade Workflow
     
   </span>
 </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview-of-workflow-phases">
+<span class="md-ellipsis">
+      Overview of Workflow Phases
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#otc-trade-execution-flow">
+<span class="md-ellipsis">
+      OTC Trade Execution Flow
+    </span>
+</a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -523,6 +552,26 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview-of-workflow-phases">
+<span class="md-ellipsis">
+      Overview of Workflow Phases
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#otc-trade-execution-flow">
+<span class="md-ellipsis">
+      OTC Trade Execution Flow
+    </span>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -534,8 +583,7 @@
 <p class="admonition-title">End-to-end, Trustless Trade Lifecycle</p>
 <p>Every OTC transaction on NexOTC follows a customizable workflow with compliance, privacy and escrow protection from negotiation to settlement.</p>
 </div>
-<hr/>
-<h2>Overview of Workflow Phases</h2>
+<h2 id="overview-of-workflow-phases">Overview of Workflow Phases<a class="headerlink" href="#overview-of-workflow-phases" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -546,45 +594,44 @@
 <tbody>
 <tr>
 <td><strong>1. Matchmaking</strong></td>
-<td>AI Agents identify suitable counterparties based on trade preferences.</td>
+<td>AI Agents identify the best counterparty based on trade preferences.</td>
 </tr>
 <tr>
 <td><strong>2. Terms Agreement</strong></td>
-<td>Discount, volume, tranche logic, and commission setup agreed via UI.</td>
+<td>Discount, tranche settings, commission split, and settlement rules are finalized via user interface.</td>
 </tr>
 <tr>
 <td><strong>3. KYC/AML Validation</strong></td>
-<td>ZK-powered checks validate identity &amp; jurisdiction, without exposure.</td>
+<td>Zero-knowledge identity checks confirm each party’s compliance, without revealing sensitive info.</td>
 </tr>
 <tr>
 <td><strong>4. Escrow Deployment</strong></td>
-<td>Smart contract deployed with custom logic (assets, tranches, timers).</td>
+<td>A custom smart contract is deployed, locking in the asset types, deal size, tranches and timers.</td>
 </tr>
 <tr>
 <td><strong>5. Signature Collection</strong></td>
-<td>Both parties co-sign the final transaction and terms.</td>
+<td>Both parties sign to confirm terms. Multi-Sig support is available.</td>
 </tr>
 <tr>
 <td><strong>6. Asset Transfer</strong></td>
-<td>Assets are exchanged via the smart contract and routed to final wallets.</td>
+<td>Assets are exchanged securely via the escrow contract and routed to the right wallets (including proxy wallets if enabled).</td>
 </tr>
 <tr>
 <td><strong>7. Post-Trade Compliance</strong></td>
-<td>ZK-proof + audit trail is generated for reporting.</td>
+<td>A zk-proof audit trail is generated for regulatory or internal reporting, with selective disclosure as needed.</td>
 </tr>
 </tbody>
 </table>
-<hr/>
-<h2>OTC Trade Execution Flow</h2>
+<h2 id="otc-trade-execution-flow">OTC Trade Execution Flow<a class="headerlink" href="#otc-trade-execution-flow" title="Permanent link">¶</a></h2>
 <pre class="mermaid"><code>flowchart TD
   A[Create Trade Offer] --&gt; B[Offer Published]
   B --&gt; C[Counterparty Accepts / Counters]
   C --&gt; D[Terms Finalized &amp; Smart Contract Escrow Deployed]
-  D --&gt; E1[Optional #1: Multi-Sig Wallet Setup]
-  D --&gt; E2[Optional #1: Proxy Wallet Creation]
+  D --&gt; E1[Optional: Multi-Sig Wallet Setup]
+  D --&gt; E2[Optional: Proxy Wallet Setup]
 
-  E1 --&gt; F1[Optional #2: Signature Collection]
-  E2 --&gt; F2[Optional #2: Asset Deposits to Proxy Wallets]
+  E1 --&gt; F1[Optional: Signature Collection]
+  E2 --&gt; F2[Optional: Asset Funding via Proxy Wallet]
 
   F1 --&gt; G[Funds Deposited]
   F2 --&gt; G
@@ -601,7 +648,7 @@ style F2 stroke-width:2px,stroke-dasharray: 5 5;</code></pre>
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 1, 2025 23:11:09">May 1, 2025</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 8, 2025 12:07:51">May 8, 2025</span>
 </span>
 </aside>
 </article>
