@@ -42,5 +42,5 @@ Even as a non-custodial, NexOTC is built to align with global compliance standar
 - Confirm that OTC trading is allowed in your region;
 - Follow local tax, reporting and AML rules;
 
-<br><br>
+---
 For legal inquiries, compliance partnerships or jurisdictional support, please [contact our team](mailto:legal@nexotc.io).

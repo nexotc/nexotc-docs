@@ -1,36 +1,39 @@
 # Partners & Integrations
 
 !!! note "Why Compliance Integrations Matter"
-    NexOTC is non-custodial and privacy-first — but also **regulatory-ready**. We work with top-tier compliance and identity providers to ensure seamless user verification, transaction tracing, and auditability without compromising user control.
+    NexOTC is non-custodial but fully aligned with global regulatory standards. We work with trusted partners to handle KYC, AML and identity verification in a way that protects user privacy while supporting auditability and legal reporting.
 
-<h2>🧬 Identity Verification (KYC/KYB)</h2>
+## Identity Verification (KYC/KYB)
 
-NexOTC integrates **zero-knowledge identity protocols** that allow users to prove their verified status without disclosing sensitive information.
+We use zero-knowledge identity tools that let users prove they're verified without revealing personal details.
 
-Current integration:
-- ✅ **PrivadoID** – Privacy-preserving KYC/KYB using zk-SNARK proofs
+Providers:
 
-<h2>🛂 Selective Disclosure & DID</h2>
+- [ ] **PrivadoID**
+- [ ] **zkPass**
 
-We support **Decentralized Identity (DID)** systems to manage user credentials, verification states, and compliance preferences.
+## Selective Disclosure & DID
 
-Current integration:
-- ✅ **zkPass** – Selective disclosure layer enabling DID-compatible proofs
+Users can manage identity and compliance credentials with Decentralized Identifiers (DIDs) by enabling secure and reusable proofs.
 
-<h2>🔍 Wallet Risk Scoring & AML</h2>
+Providers:
+
+- [ ] **PrivadoID**
+- [ ] **zkPass**
+
+## Wallet Screening & AML Risk
 
 We perform **real-time wallet screening** to detect flagged or high-risk activity across jurisdictions and blockchains.
 
-Current integration:
-- ✅ **Elliptic** – On-chain forensic tools for OFAC screening and AML compliance
+Providers:
 
-<h2>📊 Compliance Reporting</h2>
+- [ ] **Elliptic**
+- [ ] **TRM Labs**
+
+## Post-Trade Reporting
 
 Users and institutions can export:
-- **ZK-based proof of compliance**
-- **Human-readable audit logs** (for internal/legal purposes)
-- **Post-trade reports** (for regulators or accounting)
 
----
-
-Want to integrate with NexOTC? Reach out to our team to join the compliance partner ecosystem.
+- ✅ **ZK-Proof of Compliance**: Cryptographic validation of KYC/AML;
+- ✅ **Audit-Ready Logs**: Readable summaries for legal or accounting teams;
+- ✅ **Regulatory Reports**: Formatted post-trade data if required.
