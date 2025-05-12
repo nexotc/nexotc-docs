@@ -1,13 +1,13 @@
 # Tranche & Milestone Settlement
 
 !!! info "Flexible Settlement with Built-in Risk Control"
-    Not every OTC trade needs to settle all at once. NexOTC supports flexible execution using tranches, with optional milestone triggers for better control and reduced risk.
+    Not every OTC trade needs to settle all at once. NexOTC supports flexible execution using tranches with optional milestone triggers for better control and reduced exposure.
 
 ## What is a Tranche?
 
 Instead of sending the full amount in one go, a trade can be **broken into multiple tranches** (smaller parts released over time or when certain conditions are met). 
 
-This gives both sides peace of mind in large or complex deals. Funds are only released as the trade progresses, making it easier to manage liquidity and trust.
+This gives both sides peace of mind in large or complex deals. Funds are only released as the trade progresses, making it easier to manage liquidity and counterparty risk.
 
 ## Tranche-Based Settlement
 

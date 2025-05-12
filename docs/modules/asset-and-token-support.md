@@ -1,16 +1,16 @@
 # Asset & Token Support
 
 !!! note "Trade Any Token With Confidence"
-    NexOTC supports a wide range of digital assets, including major crypto tokens with future support planned for tokenized real-world assets, all validated through smart contracts.
+    NexOTC supports a wide range of digital assets, including major crypto tokens with future support planned for tokenized real-world assets.
 
 ## Supported Assets
 
 | Asset Type            | Description                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------------------|
-| **Crypto Tokens**     | Native support for ERC-20, ERC-721 and ERC-1155 tokens on zkEVM & EVMs.                          |
-| **Tokenized Assets**  | Support for tokenized commodities, securities and other RWAs.                                    |
-| **Stablecoins**       | USDT, USDC, DAI, and other widely accepted FIAT-pegged tokens.                                   |
-| **Custom Tokens**     | OTC Desks can request approval to trade custom or niche assets through governance or onboarding. |
+| **Crypto Tokens**     | Native support for ERC-20 tokens on zkEVM & EVMs.                                                |
+| **Tokenized Assets**  | Future support for tokenized commodities, securities and other RWAs.                             |
+| **Stablecoins**       | USDT, USDC and other widely accepted FIAT-pegged tokens.                                         |
+| **Custom Tokens**     | OTC Desks can request approval to trade custom through governance or during onboarding.          |
 
 ## Chain Support Strategy
 

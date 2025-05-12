@@ -1,8 +1,8 @@
 site_name: NexOTC Documentation
 site_description: "Private. Secure. Trustless."
 site_url: https://docs.nexotc.io
-repo_url: https://github.com/nexotc/nexotc-docs
-repo_name: NexOTC Docs
+repo_url: https://github.com/nexotc
+repo_name: NexOTC
 edit_uri: ""
 copyright: "Copyright © 2025 NexOTC"
 
@@ -16,32 +16,32 @@ nav:
 
   - Modules:
       - 'Overview': modules/overview.md
-      - 'Trustless OTC Escrow': modules/trustless-escrow.md
-      - 'AI Matchmaking Agents': modules/ai-agents.md
-      - 'Fees & Commission Structure': modules/fee-and-commission-system.md
-      - 'Multi-Layered Privacy': modules/privacy-stack.md
+      - 'Trustless OTC Escrow': modules/trustless-otc-escrow.md
+      - 'AI Matchmaking Agents': modules/ai-matchmaking-agents.md
+      - 'Fees & Commission Structure': modules/fees-and-commission-system.md
+      - 'Multi-Layered Privacy': modules/multi-layered-privacy.md
       - 'Tranche & Milestone Settlement': modules/tranche-and-milestone-settlement.md
-      - 'Asset & Token Support': modules/token-support.md
-      - 'OTC Trade Workflow': modules/user-flow.md
+      - 'Asset & Token Support': modules/asset-and-token-support.md
+      - 'OTC Trade Workflow': modules/otc-trade-workflow.md
 
   - Compliance:
-      - 'ZK Identity': compliance/zk-identity.md
-      - 'Legal & Jurisdiction': compliance/legal-readiness.md
-      - 'Partners & Integrations': compliance/compliance-partners.md
+      - 'Zero-Knowledge Identity': compliance/zero-knowledge-identity.md
+      - 'Legal & Jurisdiction': compliance/legal-and-jurisdiction.md
+      - 'Partners & Integrations': compliance/partners-and-integrations.md
 
-  - For Institutions:
-      - 'How institutions Use NexOTC': institutions/institutional-flows.md
-      - 'Create a Private OTC Desk': institutions/custom-desk.md
-      - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance.md
+  - Institutional:
+      - 'How institutions Use NexOTC': institutions/how-institutions-use-nexotc.md
+      - 'Create a Private OTC Desk': institutions/create-a-private-otc-desk.md
+      - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance-and-reporting.md
 
-  - Earning with NexOTC:
-      - 'Referral & Introducer Setup': earning/referral-program.md
-      - 'Points & Loyalty Rewards': earning/rewards.md
+  - Rewards & Revenue Sharing:
+      - 'Referral & Introducer Setup': earning/referral-and-introducer-setup.md
+      - 'Points & Loyalty Rewards': earning/points-and-loyalty-rewards.md
       - 'Revenue Share': earning/revenue-share.md
 
-  - Links:
+  - Useful Links:
       - 'Support': links/support.md
-      - 'TOS & Privacy Policy': links/tos-privacy.md
+      - 'TOS & Privacy Policy': links/tos-privacy-policy.md
 
 theme:
   name: material

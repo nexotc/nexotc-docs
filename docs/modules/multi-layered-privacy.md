@@ -9,8 +9,8 @@ At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system 
 
 | Level     | Features                                                                 | Ideal For                           |
 |-----------|--------------------------------------------------------------------------|-------------------------------------|
-| **Low**   | zk-KYC, AML Check                                                        | Standard KYC users                  |
-| **Medium**| Selective Disclosure (Share Only What's Needed)                          | Professionals, brokers              |
+| **Low**   | zk-KYC, AML Check                                                        | Standard KYC Users                  |
+| **Medium**| Selective Disclosure (Share Only What's Needed)                          | Professionals, Brokers              |
 | **High**  | Proxy Routing, Multi-Sig Wallets                                         | Funds, DAOs, Family Offices         |
 
 ## Key Privacy Tools
@@ -25,9 +25,9 @@ At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system 
       C --> D{AML Check Required?}
       D -- Yes --> E{Compliant or Flagged?}
       E -- Compliant --> F[✅ DID Issued]
-      E -- Flagged --> G[🚫 Manual Review / Trade Blocked]
+      E -- Flagged --> G[🚫 Manual Review]
       D -- No --> F
-      F --> H[🔗 KYC/AML Proof Linked to OTC Profile]
+      F --> H[🔗 KYC/AML Proof Linked to OTC User Profile]
 
     style D stroke-width:2px,stroke-dasharray: 5 5;
     style E stroke-width:2px,stroke-dasharray: 5 5;
@@ -62,7 +62,3 @@ At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system 
 
     style D stroke-width:2px,stroke-dasharray: 5 5;
     ```
-
-## Compliance Comes First
-
-All privacy features are designed with regulation in mind. Users still complete KYC/KYB, but thanks to zero-knowledge proofs, they can control what’s visible to counterparties while keeping everything fully auditable.

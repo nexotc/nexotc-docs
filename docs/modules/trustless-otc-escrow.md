@@ -3,7 +3,7 @@
 !!! note "What is a Trustless Escrow?"
     In traditional deals, a middleman usually holds the money or assets until both sides complete the agreement but that means you have to trust the middleman. 
 
-    NexOTC removes the need for any third party. Instead, a smart contract (a piece of code on the blockchain) holds the assets and only releases them when both sides meet the agreed terms.
+    NexOTC removes the need for any third party. Instead, a smart contract holds the assets and only releases them when both sides meet the agreed terms.
 
 ## Why It Matters
 
@@ -29,7 +29,7 @@ With NexOTC's Escrow:
 
 ## How Trust Is Removed
 
-- ✅ **No Custody**: NexOTC never holds assets;
-- ✅ **Auditable**: Smart contracts are open and verifiable;
-- ✅ **Immutable Rules**: Once a trade is created, rules cannot be changed without both parties’ agreement;
-- ✅ **Failsafe Logic**: Predefined fallbacks ensure no funds are stuck
+- [x] **No Custody**: NexOTC never holds assets;
+- [x] **Auditable**: Smart contracts are open and verifiable;
+- [x] **Immutable Rules**: Once a trade is created, rules cannot be changed without both parties’ agreement;
+- [x] **Failsafe Logic**: Predefined fallbacks ensure no funds are stuck

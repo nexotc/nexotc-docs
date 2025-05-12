@@ -1,7 +1,7 @@
 # Fees & Commission Structure
 
 !!! note "Transparent Fees. Flexible Commissions. Automated Routing."
-    NexOTC simplifies high-value OTC trading, including how fees and commissions are handled. From platform charges to introducer payouts, everything is automated through the smart contract, with full privacy built in.
+    NexOTC handles fees and commissions with full automation and privacy. Platform fees, introducer payouts and custom splits are all processed through smart contracts.
 
 ## Platform Fee Model
 
@@ -16,7 +16,7 @@ Our fees are based on deal size, offering fair pricing across a wide range of tr
 
 1. Fees are deducted directly via the escrow smart contract;
 2. Both parties are notified of the fee structure prior to execution;
-3. Volume-based discounts are available for institutional desks.
+3. Volume-based discounts are available for Institutional Desks or VIPs.
 
 ## Commission Routing Logic
 

@@ -4,10 +4,10 @@
     Whether you're trading as an individual or representing an institution, here’s how to get onboarded and start exploring NexOTC.
 
 ## Access Requirements
-- 🔐 Non-Custodial Wallet (e.g. MetaMask)
-- 🪪 Complete Onboarding[^1] via Private KYC / KYB[^2]
-- 💰 Minimum Deal Size: $25,000
-- ✉️ Invitation or Waitlist Access (Initial Launch)
+- Non-Custodial Wallet (e.g. MetaMask)
+- Complete Onboarding[^1] via Private KYC / KYB[^2]
+- Minimum Deal Size: $25,000
+- Invitation or Waitlist Access (Initial Launch)
 
 ## Onboarding
 
