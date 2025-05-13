@@ -14,15 +14,15 @@ Every trade includes a cryptographic ZK-SNARK proof confirming that:
 
 > 🔐 These logs prove **compliance** without disclosing counterparties, asset size or wallet addresses.
 
-## PDF Audit Reports
+## PDF Audit Reports (PDF, JSON)
 
-Institutions and internal teams can request:
+Both Individuals and Institutions can request:
 
 - Trade confirmations;
 - Compliance summaries;
 - Audit trails for internal, banking or legal use.
 
-> ⚠️ These are generated only on request through the Institutional Dashboard.
+> ⚠️ These are generated only on request through the Dashboard.
 
 ## Verification Tools
 

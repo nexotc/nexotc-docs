@@ -7,7 +7,7 @@
 
 | Phase                        | Description                                                                                                                     |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| **1. Matchmaking**           | AI Agents identify the best counterparty based on trade preferences.                                                            |
+| **1. Matchmaking/Invitation**| AI Agents identify the best counterparty based on trade preferences or use a private invite link.                               |
 | **2. Terms Agreement**       | Discount, tranche settings, commission split, and settlement rules are finalized via user interface.                            |
 | **3. KYC/AML Validation**    | Zero-knowledge identity checks confirm each party’s compliance, without revealing sensitive info.                               |
 | **4. Escrow Deployment**     | A custom smart contract is deployed, locking in the asset types, deal size, tranches and timers.                                |

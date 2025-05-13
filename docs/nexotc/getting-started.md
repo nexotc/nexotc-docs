@@ -24,7 +24,7 @@ flowchart TD
   style D stroke-width:2px,stroke-dasharray: 5 5;
 ```
 
-💡 Curious how identity verification works behind the scenes? [Learn more about ZK Identity](../compliance/zk-identity.md)
+💡 Curious how identity verification works behind the scenes? [Learn more about ZK Identity](../compliance/zero-knowledge-identity.md)
 
 [^1]: 
     Onboarding is proceeded using zero-knowledge proofs which means your identity is confirmed without ever exposing your private data. After completing verification through a secure provider, you're issued a Decentralized Identifier (DID) and a Verifiable Credential (VC) (Example: Getting a digital passport that proves who you are without sharing sensitive info).

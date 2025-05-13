@@ -1,7 +1,7 @@
 # Fees & Commission Structure
 
 !!! note "Transparent Fees. Flexible Commissions. Automated Routing."
-    NexOTC handles fees and commissions with full automation and privacy. Platform fees, introducer payouts and custom splits are all processed through smart contracts.
+    NexOTC handles fees and commissions with full automation and privacy. Platform fees, introducer payouts and custom splits are processed through smart contracts.
 
 ## Platform Fee Model
 
@@ -25,8 +25,10 @@ NexOTC supports **flexible and private commission routing**, ideal for trades in
 Each party (buyer and seller) can:
 
 - Up to **3 introducer wallets** per party;
-- Custom percentage per wallet (**total capped at 5%**);
+- Custom percentage per wallet (**max 5% per counterparty**);
 - Funds are split and routed on-chain with no manual steps.
+
+> 🛠️ NexOTC retains 5% of the assigned commission amount to cover routing, infrastructure and compliance (reporting). This deduction happens automatically and does not require user input.
 
 ```mermaid
 flowchart TD

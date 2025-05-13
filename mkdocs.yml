@@ -18,7 +18,7 @@ nav:
       - 'Overview': modules/overview.md
       - 'Trustless OTC Escrow': modules/trustless-otc-escrow.md
       - 'AI Matchmaking Agents': modules/ai-matchmaking-agents.md
-      - 'Fees & Commission Structure': modules/fees-and-commission-system.md
+      - 'Fees & Commission Structure': modules/fees-and-commission-structure.md
       - 'Multi-Layered Privacy': modules/multi-layered-privacy.md
       - 'Tranche & Milestone Settlement': modules/tranche-and-milestone-settlement.md
       - 'Asset & Token Support': modules/asset-and-token-support.md
@@ -34,9 +34,9 @@ nav:
       - 'Create a Private OTC Desk': institutions/create-a-private-otc-desk.md
       - 'Post-Trade Compliance & Reporting': institutions/post-trade-compliance-and-reporting.md
 
-  - Rewards & Revenue Sharing:
-      - 'Referral & Introducer Setup': earning/referral-and-introducer-setup.md
-      - 'Points & Loyalty Rewards': earning/points-and-loyalty-rewards.md
+  - Rewards & Revenue Share:
+      - 'Introducer Setup & Onboarding': earning/introducer-setup-and-onboarding.md
+      - 'Referral Partner Program': earning/referral-partner-program.md
       - 'Revenue Share': earning/revenue-share.md
 
   - Useful Links:

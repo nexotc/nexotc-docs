@@ -1,77 +1,42 @@
 # Revenue Share
 
-!!! info "Own the upside of the network you help grow."
-    NexOTC rewards active contributors with a direct share of platform revenue — from fees collected on every OTC deal executed.
+!!! info "Earn from the volume you help generate."
+    NexOTC shares platform revenue with those who bring real activity to the network including introducers, referrers and institutional partners.
 
----
+## How Revenue is Generated
 
-<h2>🔁 How Revenue is Generated</h2>
+NexOTC earns protocol revenue from:
 
-Revenue comes primarily from:
+- **Platform Fees**: Percentage charged on each OTC trade (0.2%–0.4%);
+- **Introducer Commissions**: 5% retained from assigned introducer payouts;
+- **Custom OTC Desks**: Dedicated trading spaces hosted inside NexOTC Platform for verified institutions;
+- **White-Label UI**: Branded OTC platforms deployed directly into institutional environments;
+- **Escrow-as-a-Service (EaaS)**: Standalone Smart Contract Escrow offered to external platforms.
 
-- **Platform Fees** — flat percentage per OTC trade (e.g., 0.1%–0.5%)
-- **Custom Desk Setups** — premium institutional services
-- **Future Services** — SDK access, Escrow-as-a-Service, etc.
+> 📌 The Public SDK is provided free of charge to developers and partners to encourage integration and ecosystem growth.
 
-A portion of this revenue is distributed back to the community and token holders.
+## Who Can Earn a Share?
 
----
+### Verified Referrers & Introducers  
+Earn a share of trade volume you initiate or facilitate. Commissions are automatically routed via smart contracts during settlement.
 
-<h2>📊 Who Gets a Share?</h2>
+### Institutional Partners  
+High-volume institutions and partners receive custom support and infrastructure options, including:
 
-Revenue share applies to:
+- Access to private Custom OTC Desks hosted inside NexOTC;
+- Eligibility for volume-based fee discounts;
+- Premium analytics, reporting and compliance export features.
 
-### 🧑‍💼 Verified Referrers & Introducers  
-Earn a % of every deal you bring to the platform — **automatically routed via smart contracts**.
+### Token Holders
+In the future, holding NexOTC tokens will enable:
 
-### 💎 $NEX Token Holders (future)  
-Stake $NEX to unlock access to:
+- Governance Participation (proposal voting, module upgrades, asset whitelist);
+- Perks & Access (e.g. platform fees discount, contributor reputation tiers).
 
-- Revenue pool distributions
-- Platform governance rights
-- Priority deal access & matchmaking
+## Payout Timing
 
-### 🏛️ Institutional Partners  
-Institutions running white-labeled desks or executing high-volume trades are eligible for:
-
-- Custom revenue split
-- Enhanced analytics
-- Early feature access
-
----
-
-<h2>🔐 Transparent & Private</h2>
-
-All rewards are distributed:
-
-- Trustlessly, via Escrow routing
-- Without exposing deal counterparty
-- Auditable via **zk-compliant proofs**
-
----
-
-<h2>📅 Distribution Frequency</h2>
-
-| Tier                            | Revenue Share Payout |
-|---------------------------------|------------------------|
-| Verified Introducers            | Real-time per deal     |
-| $NEX Token Stakers (future)     | Monthly / Epoch-based  |
-| Institutional Partners          | Custom schedule        |
-
----
-
-<h2>💡 Future Plans</h2>
-
-- Public Dashboard (showing rewards & metrics without doxxing users)
-- DAO Governance for adjusting revenue allocation
-- Tiered Loyalty Multipliers
-- Opt-in Transparency Flags for institutions
-
----
-
-<h2>✅ Summary</h2>
-
-NexOTC doesn’t just facilitate trades —  
-It rewards those who bring volume, trust, and value to the network.
-
-→ Want to participate? [Set up your referral](../earning/referral-program.md) or learn more about [$NEX](../modules/token-support.md).
+| Participant Type       | Revenue Share Payout      |
+|------------------------|---------------------------|
+| Verified Introducers   | Real-time (per trade)     |
+| Referral Partners      | Real-time (per trade)     |
+| Institutional Partners | Per agreement             |

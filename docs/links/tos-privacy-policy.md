@@ -53,4 +53,4 @@ You may request data export or deletion in accordance with applicable laws (e.g.
 
 Reach us at: [legal@nexotc.io](mailto:legal@nexotc.io)
 
-For more information, please refer to the [Compliance Section](../compliance/zk-identity.md) in our documentation.
+For more information, please refer to the [Compliance Section](../compliance/zero-knowledge-identity.md) in our documentation.
