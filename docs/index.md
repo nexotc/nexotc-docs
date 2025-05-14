@@ -10,7 +10,7 @@ hide:
 </br>The first platform where P2P OTC Trades are matched, negotiated and executed with **privacy**, **compliance** and **full control**, **without intermediaries or custodial risk**.
 
 <figure markdown>
-  ![NexOTC Hero](assets/images/hero.png){ width="512px" }
+  ![NexOTC Hero](assets/images/hero.png){ width="350px" }
 </figure>
 
 ## Why NexOTC?
