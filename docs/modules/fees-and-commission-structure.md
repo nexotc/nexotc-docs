@@ -5,7 +5,7 @@
 
 ## Platform Fee Model
 
-Our fees are based on deal size, offering fair pricing across a wide range of trades:
+Fees are tiered based on trade size to guarantee competitive pricing at every deal level.
 
 | Deal Size (USD)         | Platform Fee       |
 |-------------------------|--------------------|

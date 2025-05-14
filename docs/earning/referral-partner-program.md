@@ -1,7 +1,7 @@
 # Referral Partner Program
 
 !!! note "Bring Users. Earn Rewards."
-    The Referral Partner Program is built to reward traders contributors, community builders, and power users who bring new traders to NexOTC.
+    The Referral Partner Program is built to reward contributors who bring new traders to NexOTC.
 
 ## How It Works
 
@@ -20,8 +20,8 @@ The more volume your network trades, the higher your share!
 
 | Tier         | Criteria                                      | Share of Platform Fee  |
 |--------------|-----------------------------------------------|------------------------|
-| **Bronze**   | Default Tier (Active Upon Signup)             | 10%                    |
-| **Silver**   | $250K in referred trade volume or 3+ trades   | 15%                    |
+| **Bronze**   | Default Tier                                  | 10%                    |
+| **Silver**   | $250K in referred trade volume                | 15%                    |
 | **Gold**     | $1M+ in referred trade volume                 | 20%                    |
 | **Platinum** | $5M+ in referred trade volume                 | 25%                    |
 

@@ -7,10 +7,10 @@
 
 AI Matchmaking Agents are intelligent systems that help users find the right counterparty without manual searching. They work behind the scenes to:
 
-- [x] Review trade preferences like size, asset type and discount range;
-- [x] Cross-reference behavioral and historical activity;
-- [x] Guarantee that all matches meet verification status and jurisdiction requirements;
-- [x] Match users based on compatibility, not just price.
+- Review trade preferences like size, asset type and discount range;
+- Cross-reference behavioral and historical activity;
+- Guarantee that all matches meet verification status and jurisdiction requirements;
+- Match users based on compatibility, not just price.
 
 ## How It Works
 
@@ -31,7 +31,7 @@ AI Matchmaking Agents are intelligent systems that help users find the right cou
 
 ## Benefits of AI Matchmaking
 
-- ⚡ Faster deal discovery;
-- 🔍 Better alignment between counterparties;
-- 🔒 Private matching where your identity and preferences remain hidden until a match is confirmed;
-- ⚖️ Fully compatible with compliance rules.
+- [x] Faster deal discovery;
+- [x] Better alignment between counterparties;
+- [x] Private matching where your identity and preferences remain hidden until a match is confirmed;
+- [x] Fully compatible with compliance rules.

@@ -23,8 +23,8 @@ flowchart TD
   B -- Yes --> C[Tranche 1 Released via Smart Contract]
   B -- No --> D[Await Time/Milestone]
   C --> E{Next Tranche?}
-  E -- Yes --> F[Repeat Condition Check]
-  E -- No --> G[Deal Fully Settled]
+  E -- Yes --> F[🔁 Repeat Condition Check]
+  E -- No --> G[✅ Deal Fully Settled]
 
   style B stroke-dasharray: 5 5
   style E stroke-dasharray: 5 5
@@ -36,14 +36,9 @@ You can add **custom conditions** to each tranche such as:
 
 - A specific date or countdown timer
 - A required signature or approval[^1]
-- An external trigger or API event[^2]
 
 These are optional. If no milestones are defined, tranches can settle based on time or manual approval alone.
 
 [^1]: 
      This means someone (like a legal team, DAO signer or internal stakeholder) must sign or confirm before a tranche is released.
      It's useful for high-value deals where oversight or step-by-step confirmation is required.
-
-[^2]:
-     This refers to a condition coming from outside the blockchain like a fiat payment confirmation, asset delivery proof or market price feed.  
-     These conditions are handled via Oracles or APIs to make sure everything stays in sync with real-world actions.

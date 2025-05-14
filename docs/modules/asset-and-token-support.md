@@ -7,7 +7,7 @@
 
 | Asset Type            | Description                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------------------|
-| **Crypto Tokens**     | Native support for ERC-20 tokens on zkEVM & EVMs.                                                |
+| **Crypto Tokens**     | Native support for ERC-20, ERC-721 and ERC-1155 tokens on zkEVM & EVMs.                          |
 | **Tokenized Assets**  | Future support for tokenized commodities, securities and other RWAs.                             |
 | **Stablecoins**       | USDT, USDC and other widely accepted FIAT-pegged tokens.                                         |
 | **Custom Tokens**     | OTC Desks can request approval to trade custom through governance or during onboarding.          |

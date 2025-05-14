@@ -1,22 +1,18 @@
 # Support
 
-!!! note "Essential resources to stay connected and supported."
-    Use the following links to access NexOTC’s official channels, platform policies, and support documentation.
+!!! note "Stay Connected to The NexOTC Ecosystem"
+    Access our official channels, documentation and resources below.
 
----
+## Official Socials
 
-<h2>📱 Official Socials</h2>
+- [X (formerly Twitter)](https://x.com/nex0tc)
+- [Telegram](https://t.me/nexotc)
+- [LinkedIn](https://linkedin.com/company/nexotc)
 
-- [X (formerly Twitter)](https://x.com/nexotc) — Latest updates, feature drops and announcements.
-- [Telegram](https://t.me/nexotc) — Community discussion, support and news.
-- [LinkedIn](https://linkedin.com/company/nexotc) — Institutional presence and partner updates.
-
----
-
-<h2>🧠 More Resources</h2>
+## Resources
 
 - [Documentation](https://docs.nexotc.io)
 - [GitHub Repository](https://github.com/nexotc)
-- [Waitlist Signup](https://nexotc.io)
+- [Waitlist Signup](https://nexotc.io/waitlist)
 
-Stay up-to-date and connected to the NexOTC ecosystem.
+Stay up-to-date and connected to NexOTC.

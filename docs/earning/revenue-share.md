@@ -1,6 +1,6 @@
 # Revenue Share
 
-!!! info "Earn from the volume you help generate."
+!!! info "Earn From The Volume You Help Generate."
     NexOTC shares platform revenue with those who bring real activity to the network including introducers, referrers and institutional partners.
 
 ## How Revenue is Generated

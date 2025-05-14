@@ -1,11 +1,11 @@
 # Multi-Layered Privacy
 
 !!! note "Customizable Privacy, Built for Trust"
-    Privacy isn’t one-size-fits-all. NexOTC gives every user full control over what they share and when, without compromising on compliance or security.
+    Privacy isn’t one-size-fits-all. NexOTC gives every user full control over what they share and when, without ever compromising compliance or security.
 
 ## What is Multi-Layered Privacy?
 
-At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system with multiple layers that adjust to your needs whether you're an individual, a fund or an institution.
+Privacy isn’t just “on” or “off.” It’s a flexible system with multiple layers that adjust to your needs whether you're an individual or an institution.
 
 | Level     | Features                                                                 | Ideal For                           |
 |-----------|--------------------------------------------------------------------------|-------------------------------------|
@@ -25,7 +25,7 @@ At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system 
       C --> D{AML Check Required?}
       D -- Yes --> E{Compliant or Flagged?}
       E -- Compliant --> F[✅ DID Issued]
-      E -- Flagged --> G[🚫 Manual Review]
+      E -- Flagged --> G[🔍 Manual Review]
       D -- No --> F
       F --> H[🔗 KYC/AML Proof Linked to OTC User Profile]
 
@@ -33,7 +33,7 @@ At NexOTC, privacy isn’t just “on” or “off.” It’s a flexible system 
     style E stroke-width:2px,stroke-dasharray: 5 5;
     ```
 
-=== "Multi-Sig Wallets"
+=== "Multi-Signature Wallets"
 
     Multi-signature wallets require approvals from multiple parties before a trade goes through. Perfect for teams, DAOs or anyone who needs shared control over funds.
     ```mermaid

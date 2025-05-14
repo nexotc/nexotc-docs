@@ -28,5 +28,5 @@ NexOTC is built on a modular architecture that allows the platform to remain:
 | 3. Fee & Commission Structure     | Automatically routes fees to the platform, introducers and partners with full support for commission structure.                |
 | 4. Multi-Layered Privacy          | Trade privately with zk-SNARK KYC / KYB, selective disclosure, proxy wallets and multi-sig support.                            |
 | 5. Tranche & Milestone Settlement | Break large trades into secure tranches and optionally link them to milestones for added control and flexibility.              |
-| 6. Asset & Token Support          | Supports major cryptocurrencies, ERC-20 tokens and future support for tokenized assets or commodities.                         |
+| 6. Asset & Token Support          | Supports ERC-20 tokens and future support for tokenized assets or commodities.                                                 |
 | 7. OTC Trade Workflow             | A structured, modular flow covering the full OTC lifecycle, from trade setup to execution and post-trade compliance.           |
