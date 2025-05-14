@@ -5,6 +5,7 @@
 
 ## Official Socials
 
+- [Website](https://nexotc.io)
 - [X (formerly Twitter)](https://x.com/nex0tc)
 - [Telegram](https://t.me/nexotc)
 - [LinkedIn](https://linkedin.com/company/nexotc)
