@@ -8,10 +8,11 @@
 NexOTC earns protocol revenue from:
 
 - **Platform Fees**: Percentage charged on each OTC trade (0.2%–0.4%);
-- **Introducer Commissions**: 5% retained from assigned introducer payouts;
-- **Custom OTC Desks**: Dedicated trading spaces hosted inside NexOTC Platform for verified institutions;
-- **White-Label UI**: Branded OTC platforms deployed directly into institutional environments;
+- **Introducer Commissions**: 5% of the introducer’s assigned payout is retained to cover routing, infrastructure and compliance checks;
+- **Custom OTC Desks**: Dedicated trading spaces hosted inside NexOTC Platform for verified institutions including private dashboards, analytics, trade controls and branding;
+- **White-Label OTC Platform**: Branded OTC platforms deployed directly into institutional environments;
 - **Escrow-as-a-Service (EaaS)**: Standalone Smart Contract Escrow offered to external platforms.
+- **Token Utility (Planned)**: As the protocol evolves, a native token will be introduced to align incentives, support governance and participate in value generated from NexOTC operations.
 
 > 📌 The Public SDK is provided free of charge to developers and partners to encourage integration and ecosystem growth.
 
